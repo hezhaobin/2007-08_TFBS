@@ -1,0 +1,20 @@
+# Name
+br-Z4
+
+# Construction Info
+Meme was run on the footprints with fixed width 6 and flanking sequence was not added and so footprints less than 9bp or the fixed width were excluded.
+
+# Pubmed Ids for Footprinted Sites
+"8062827"
+"8582299"
+
+# Footprints
+AAATAATAAACAAAATAATAAACAAAACCACGA
+GTAAACTAAAGCTGGTGC
+ATACCTTTCTATTCTGTAAATATTTGTGAAAGACAAGTTCG
+GAATGGTTAGAGCTAATA
+TTATTAATAGAAGT
+TGCTAATCAGTG
+TGAATACTAATTACT
+GATGATAATAGTTATAA
+

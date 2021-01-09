@@ -1,0 +1,3 @@
+perl Pocc.pl > ../Result/bcd_pocc.txt
+perl Pocc2.pl > ../Result/bcd_pocc.txt
+perl Pocc3.pl > ../Result/hb_pocc.txt

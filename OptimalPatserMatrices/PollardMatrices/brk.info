@@ -1,0 +1,22 @@
+# Name
+brk
+
+# Construction Info
+Meme was run on the footprints with fixed width 8 and flanking sequence was added for footprints less than 9bp or the fixed width.
+
+# Pubmed Ids for Footprinted Sites
+"11080162"
+"11159914"
+
+# Footprints
+AGCTTGGTGGCGCCTCAA
+GTCTGTTTAGCGCCATG
+CACAAGCTGACGCCAAGTTGATGGGGGCGCCGCAG
+GGATTGCCCGGCGCCGACT
+GCCCGACTGGCACCTCG
+ATCTGGCGTTGCGTG
+CGGAGTCTCGCCAG
+CCGGTGGCGGCGCT
+TTATTACTGGCGCTATC
+GCCTGGCGGCGCC
+

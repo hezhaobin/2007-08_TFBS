@@ -1,0 +1,577 @@
+#!/usr/bin/python
+
+'''
+TSV (Transcription factor Sites Viewer):
+This module was written for reading transc input file
+and plotting the TFBSs with their own binding affinities
+'''
+
+import sys, os, getopt, glob, re
+import types
+import math, cmath
+import string
+import copy
+import numpy
+import time
+import tkFileDialog
+import tkColorChooser
+import tkSimpleDialog
+import tkMessageBox
+
+from Numeric import *                 # Numpy package
+from Tkinter import *
+from subprocess import *
+
+# Parameters and Variables ######################################################
+
+# System information
+PROGRAM = 'TSV'
+VERSION = 1.1
+AUTHOR = 'Ah-Ram Kim'
+USAGE = """
+Usage: tsv [-h] [-v] [-x <pixel>] [-l <construct>] [-n <construct>] input_file
+Example: tsv -x 1200 -l eve_wt -n eve_wt_nuc input
+"""
+
+HELP = """
+%s V%s: TRANSCRIPTION FACTOR BINDING SITES VIEWER
+
+options:
+
+       -v: Version
+       -h: Help
+       -x: set x range of initial window
+       -c: construct name to plot (in case of multiple constructs)
+       -l: add legend to the DNA
+           Following contructs can be used:
+           
+           eve_wt     : Wildtype eve gene (13kb sequence based)
+           hb_wt      : Widetype hb gene
+
+Author: %s
+""" % (PROGRAM,VERSION,AUTHOR)
+
+# Biological parameters ########################################################
+
+eve_wt    = [('MSE2',-1555,-1066),('MSE3',-3810,-3304)]
+hb_wt     = [('P1 specific',0,145),('P2 specific',-3218,-2725),('pThb5',-1348,-1)]
+
+master_c  = {'eve_wt':eve_wt,'hb_wt':hb_wt}
+
+# Module specific parameters ###################################################
+
+# If you want to change the order of site in the plot,
+# you should change the order here between 1 and 10
+
+Plot_seq = {'B':5,'C':4,'D':3,'H':6,'K':7,'N':8,'G':9,'T':10}
+f_initial= {'B':'Bcd','C':'Cad','D':'Dst','H':'Hb','K':'Kr',\
+            'N':'Kni','G':'Gt','T':'Tll'}
+
+Plot_seq2 = Plot_seq.items()          # Put dict into List
+seq_len = len(Plot_seq2)              # Number of sets
+
+# Now, plot_seq is List. So you can call the value using index:
+# Plot_seq[0][1] means '5'
+
+canvas_wid=1000                       # Default window size: width
+canvas_hei=300                        # Default window size: height
+
+Max_ligands = 10                      # Number of maximum number of ligands
+Max_Act = 5                           # Number of maximum number of activators
+Max_Rep = 5                           # Number of maximum number of repressor
+
+top_margin = 50                       # Top margin 
+bot_margin = 50                       # Bottom margin
+row_grid = 20                         # row grid interval (Pixel)
+col_grid = 50                         # column grid interval
+
+max_score = 0.05                      # max_score of K value
+
+f_flag = 0                            # for '-f' option
+c_flag = 0                            # for '-c' option
+xml_flag = 0                          # if a xml version, x_flag = 1
+
+# Program specific functions ####################################################
+
+def Plot_s (c):
+    return Plot_seq[c]
+
+# Menu
+
+def print_msg(msg):
+    w.configure(text=msg)
+
+def print_error(str1):
+    print PROGRAM+': ''ERROR: '+ str1 
+    sys.exit()
+
+def print_version():
+    global PROGRAM
+    global VERSION
+    print "This is "+PROGRAM+" Version "+str(VERSION)+'.'
+    print "AUTHOR: "+AUTHOR
+    sys.exit()
+
+def print_usage(str):
+    print str
+    sys.exit()
+
+def print_help(str):
+    print str
+    sys.exit()
+
+def menu_new(event=None):
+    print_msg("New called")
+
+def menu_open(event=None):
+    newfile = tkFileDialog.askopenfilename()
+    Popen(['tsv',newfile])
+
+def save_new(event=None):
+    savefile = tkFileDialog.asksaveasfilename()
+    canvas.postscript(file=savefile+'.ps', colormode='color')
+    
+def menu_exit(event=None):
+    root.quit()
+    root.destroy
+
+def menu_about(event=None):
+    print_msg("about called")
+
+def text_view(event=None):
+
+    # Additional window
+    win2 = Toplevel(root)
+    text = Text(win2, width=80,height=20)
+    text.pack(side='bottom')
+    win2.title("TSV Text Viewer")
+    text.insert(END,str(TEXT))
+    text.config(state=DISABLED)                  # Don't write!
+
+def color_chooser(event=None):
+    return tkColorChooser.askcolor()
+
+def add_line(event=None):
+    win3 = Toplevel(root)
+    l_info = MyDialog(win3,"Add Lines")
+    print l_info
+
+def find_section(str,line):
+    m = re.match('^\$'+str+'[_a-zA-Z0-9]*',line)
+    return m
+
+def find(str,line):
+    m = re.search(str,line)
+    return m
+
+def end_section(str,line):
+    m = re.match(str,line)
+    return m
+
+def K_range(str,max_score):
+    str = float(str)
+    if (str >= max_score/2):
+        return 4
+    elif(str < max_score/2 and str >= max_score/20):
+        return 3
+    elif(str < max_score/20 and str >= max_score/200):
+        return 2
+    elif(str < max_score/200 and str >= max_score/2000):
+        return 1
+    else:
+        return 0
+
+def s_bym(a1,a2):                    # Sort by 'm'
+    temp1 = int(a1[3])               # String '-m' converted integer -m
+    temp2 = int(a2[3])
+    return cmp(temp1,temp2)
+
+def ligand_color(str):
+    if (str == 'B'):
+        return 'red'
+    elif (str == 'C'):
+        return 'yellow'
+    elif (str == 'D'):
+        return 'purple'
+    elif (str == 'H'):
+        return 'green'
+    elif (str == 'K'):
+        return 'brown'
+    elif (str == 'N'):
+        return 'blue'
+    elif (str == 'G'):
+        return 'grey'
+    elif (str == 'T'):
+        return 'grey'
+    else:
+        print "Wrong ligand initial: %s. \n" %(str)
+
+# Class definition ##############################################################
+
+class MyDialog(tkSimpleDialog.Dialog):
+    def body(self,master):
+        Label(master,text="Title:").grid(row=0)
+        Label(master,text="m:").grid(row=1)
+        Label(master,text="n:").grid(row=2)
+        self.e1 = Entry(master)
+        self.e2 = Entry(master)
+        self.e3 = Entry(master)
+        self.e1.grid(row=0,column=1)
+        self.e2.grid(row=1,column=1)
+        self.e3.grid(row=2,column=1)
+        return self.e1
+
+    def apply(self):
+        title = self.e1.get()
+        m = self.e2.get()
+        n = self.e3.get()
+        self.result = [title,m,n]
+
+    
+# Read input files and generate binding_array for TFBSs #########################
+
+try:
+    opts,args = getopt.getopt(sys.argv[1:],"vhfc:l:x:")# never use sys.argv[0:]!
+
+except getopt.GetoptError:
+    print "Invalid option: check the options!"
+    print_usage(USAGE)
+
+fname = []                                          # Initialize fname
+
+if(opts == [] and args == []):                      # if blank in command line,
+    print_usage(USAGE)                              # Print error message
+elif(not args == []):
+    fname = args[-1]                                  
+
+
+# Run options ###################################################################
+
+legend_on = 0
+n_legend_on = 0
+
+for op,pa in opts:                           # Options and parameters
+    if op == '-v':
+        print_version()
+        
+    elif op == '-h':
+        print_help(HELP)
+
+    elif op == '-f':
+        f_flag = 1   
+
+    elif op == '-c':
+        if (re.match(r'[_a-zA-Z0-9]*',pa) and pa):
+            c_flag = 1
+            c_name = pa
+        else:
+            print_error("Please enter correct construct name!")
+            
+    elif op == '-x':
+        if (True == pa.isdigit()):
+            canvas_wid = int(pa)
+        else:
+            print_error("Error: Please type interger with the option '-x'.")
+    elif op == '-l':
+        if (re.match(r'[_a-zA-Z0-9]*',pa) and pa):
+            legend_on = 1
+            legend_name = pa
+        else:
+            print_error("Please enter correct legend name!")
+
+    elif op == '-n':
+        if (re.match(r'[_a-zA-Z0-9]*',pa) and pa):
+            n_legend_on = 1
+            n_legend_name = pa
+        else:
+            print_error("Please enter correct construct name!")
+        
+        
+    else:
+        print_error("Unknow option: %s" %(pa))
+
+# Open and read input file ######################################################
+
+if(not fname == []):
+    try:
+        f = open(fname)
+    except IOError:
+        print 'cannot open',fname
+else:
+    print_usage(USAGE)
+
+    
+i=0                                       # construct counter
+flag = 0
+b_error = 1
+b_array = []
+bindings = []                             # for xml version
+
+if(f_flag == 0):
+    for x,line in enumerate(f.xreadlines()):
+
+        if(find_section('binding',line)): # find section that starts with $biniding
+            flag = 1
+            b_error = 0
+        elif(end_section('\$\$',line)):
+            flag = 0
+        
+        if(flag == 1):
+            lineL = line.split()
+        # column number should be 10 and each row should start with numbers
+            if(len(lineL)==10 and re.match(r'[0-9]',lineL[0])):
+                b_array.append(lineL)
+
+                    
+    if(b_error == 1):
+        print_error("Input file does not have '$binding' section.")
+        
+    
+
+elif(f_flag == 1):
+    for x,line in enumerate(f.xreadlines()):
+
+        lineL = line.split()
+         
+        # column number should be 10 and each row should start with numbers
+        if(len(lineL)== 10 and re.match(r'[0-9]',lineL[0])\
+           and re.match(r'[A-Z]',lineL[2])):
+            b_array.append(lineL)
+            i = i+1
+
+    if(i == 0):
+        print_error("Input file does not have binding site section.")
+
+
+nsite = len(b_array)
+
+b_array2 = copy.copy(b_array)
+b_array3 = copy.copy(b_array)              # for text viewer
+
+TEXT_L = b_array
+TEXT = str(TEXT_L)
+TEXT = re.sub(r'],','\n',TEXT)
+TEXT = re.sub(r'[,\'\]\[]','',TEXT)
+
+#Find the minimum 'm' (site position)  
+b_array2.sort(s_bym)                       # s_bym from transc.py module
+min_m = int(b_array2[0][3])                # m is 3rd element in the list
+
+#print min_m
+
+#Find the maximun 'n'
+max_n = int(b_array2[nsite-1][4])
+
+#print max_n
+
+#Find the length of construct
+len_c = abs(max_n-min_m)
+
+#Set the position of TXN start site in the Canvas
+if(max_n < 0):
+    txn_start = abs(max_n-min_m)+abs(max_n)
+else:
+    txn_start = abs(max_n-min_m)-max_n
+
+#print txn_start
+
+
+# coordinate transformation #####################################################
+
+# TXN start site
+
+c_facter = ceil(txn_start/float(col_grid)) # Correction factor
+new_txn_start = c_facter*col_grid          # TXN start site moved to the right col
+new_txn_start = new_txn_start + col_grid   # Add margin to the left
+
+#print txn_start,c_facter,new_txn_start
+
+# m and n
+add = new_txn_start - txn_start
+
+# DNA_length
+if(max_n < 0):
+    DNA_length = new_txn_start + col_grid
+else:
+    DNA_length = new_txn_start + max_n + col_grid
+
+
+
+# Generate GUI interface #########################################################
+
+# GUI specific parameters 
+
+DNA_wid = len_c                  # Length of DNA construct to plot
+
+# Generate root widget
+root = Tk()
+
+
+# Create Menu
+menu = Menu(root)
+root.config(menu=menu)
+root.title(PROGRAM+" V"+str(VERSION)+": Transcription factor Site Viewer")
+
+# Making Title using Label widget: child widget of root widget 
+w = Label(root, text= PROGRAM+" V"+str(VERSION)+" by "+AUTHOR)
+w.pack()
+
+# File Menu
+filemenu = Menu(menu)
+menu.add_cascade(label="File", menu=filemenu)
+filemenu.add_command(label="Open", command=menu_open)
+filemenu.add_command(label="Save as postscript", command=save_new)
+filemenu.add_command(label="Exit", command=menu_exit)
+
+# Tool Menu
+toolmenu = Menu(menu)
+menu.add_cascade(label="Tool", menu=toolmenu)
+toolmenu.add_command(label="View as text", command=text_view)
+toolmenu.add_command(label="Color Pallete", command=color_chooser)
+toolmenu.add_command(label="Add Legend", command=add_line)
+
+# Help Menu
+helpmenu = Menu(menu)
+menu.add_cascade(label="Help", menu=helpmenu)
+helpmenu.add_command(label="About TSV", command=menu_about)
+
+# Scroll function initialization
+xbar = Scrollbar(root,orient="horizontal")
+ybar = Scrollbar(root)
+
+# Generate canvas to plot
+canvas = Canvas(root, bg="white", bd=10, xscrollcommand=xbar.set,\
+                width=canvas_wid,height=canvas_hei,\
+                yscrollcommand=ybar.set, confine=1, \
+                scrollregion=(0,0,DNA_length,canvas_hei))
+
+xbar.config(command=canvas.xview)
+ybar.config(command=canvas.yview)
+xbar.pack(side=BOTTOM, fill=X)
+ybar.pack(side=RIGHT, fill=Y)
+
+# Plot canvas
+canvas.pack(side=LEFT, fill=BOTH)
+
+# add nucleosome legend
+
+if (n_legend_on == 1):
+    try:
+        current_c = master_c[n_legend_name]
+    except KeyError:
+        print_error("Construct you typed is not listed in tsv dictionary") 
+    
+    for legend in current_c:
+        l_text = legend[0]
+        l_m = legend[1]
+        l_n = legend[1]+ 147   # 147 bp per each nucleosome
+        x0 = new_txn_start + l_m
+        x1 = new_txn_start + l_n        
+        x_c = (x0+x1)/2
+        canvas.create_rectangle(x0,50,x1,250,fill="grey90",outline = "grey90") # 0-100
+        canvas.create_text(x_c,60,text=l_text,font=("Courier",7,""),\
+                               anchor='center',fill ="white")
+
+# Plot row and column grid
+for x in range(Max_ligands+1):
+    # row
+    canvas.create_line(0,x*row_grid+top_margin, DNA_length, x*row_grid+top_margin,\
+                       width=1, smooth=1, fill="gray")
+
+for x in range(int(DNA_length/col_grid)):
+    x=x+1
+    # column
+    canvas.create_line(x*col_grid, top_margin, x*col_grid, canvas_hei-bot_margin,\
+                       width=0.7, smooth=1, fill="gray")
+    # index (kb)
+    if(min_m < 0 and x < abs(min_m)+100/col_grid):
+        x0 = new_txn_start - (x-1)*100
+        y0 = top_margin-10
+        if (x0 > col_grid):     # Set the left border to print
+            canvas.create_text(x0,y0,text=str(-100*(x-1))+ ' bp', font="Arial 7")
+
+    if(max_n > 0 and x < abs(max_n)+100/col_grid):
+        x0 = new_txn_start + (x-1)*100
+        y0 = top_margin-10
+        if (x0 > col_grid):     # Set the left border to print
+            canvas.create_text(x0,y0,text=str(100*(x-1))+ ' bp', font="Arial 7")
+    
+# Plot DNA    
+canvas.create_line(0,150,DNA_length,150,width=3, smooth=1, fill="black")
+
+# Plot additional legend into the DNA
+
+if (legend_on == 1):
+    try:
+        current_c = master_c[legend_name]
+    except KeyError:
+        print_error("Construct you typed is not listed in tsv dictionary") 
+    
+    for legend in current_c:
+        l_text = legend[0]
+        l_m = legend[1]
+        l_n = legend[2]
+        x0 = new_txn_start + l_m
+        x1 = new_txn_start + l_n
+        x_c = (x0+x1)/2
+        canvas.create_line(x0,150,x1,150,width=8, smooth=1, fill="black")
+        canvas.create_text(x_c,150,text=l_text,font=("Courier",7,""),\
+                               anchor='center',fill ="white")
+
+
+    
+        
+
+# Write legends
+for key in Plot_seq:
+    canvas.create_text(40,Plot_seq[key]*20-9+top_margin,text=f_initial[key], \
+                       font=("Courier New",8,""), anchor='e')
+
+# anchor='w' means anchoring text to west (<-)
+canvas.create_text(10,10,text="Input file: "+args[-1],font="Arial 9", anchor='w')
+
+# Plot TXN start site
+canvas.create_line(new_txn_start,130,new_txn_start,170,width=3, \
+                   smooth=1, fill="black")
+
+# Plot binding sites
+
+#print b_array
+for binding in b_array:
+    
+    x0 = new_txn_start + int(binding[3])
+    x1 = new_txn_start + int(binding[4])
+    y0 = top_margin + Plot_s(binding[2])*row_grid - row_grid +4
+    y1 = top_margin + Plot_s(binding[2])*row_grid -4
+    canvas.create_rectangle(x0,y0,x1,y1, fill=ligand_color(binding[2]),\
+                            outline="black", width = K_range(binding[6],max_score))
+    
+    #m = re.search(r'[a-zA-Z](\d+)',binding[1])        # site index from col.2
+    m = re.search(r'(\d+)',binding[0])                 # site index from col.1
+    site_index = m.group(1)
+    canvas.create_text(x0+6,y0+6,text=str(site_index), font="Arial 6")
+
+# Add buttons to the Left of canvas ###############################################
+widget= [None] * 7
+
+widget[0] = Button(root, text="Open")
+widget[1] = Button(root, text="Zoom [-]")
+widget[2] = Button(root, text="Zoom [+]")
+widget[3] = Button(root, text="Text viewer")
+widget[4] = Button(root, text="Color option")
+widget[5] = Button(root, text="Save as PS")
+widget[6] = Button(root, text="Quit")
+
+# Event
+widget[0].bind("<Button-1>",menu_open)
+widget[3].bind("<Button-1>",text_view)
+widget[4].bind("<Button-1>",color_chooser)
+widget[5].bind("<Button-1>",save_new)
+widget[6].bind("<Button-1>",menu_exit)
+
+for el in widget:
+    el.pack(side=TOP, fill=X)       # fill=X makes all button have same width
+
+
+# Keep this event loop until window is closed #####################################
+root.mainloop()

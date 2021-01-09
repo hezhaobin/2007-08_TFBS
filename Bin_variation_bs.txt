@@ -1,0 +1,500 @@
+Summary
+--------
+ CE1007 
+ DNA IIA237 enhancer             
+chr2R
+5447092
+5447330
+
+2
+tin tin
+--------
+Summary
+--------
+ CE1008 
+ 475bp sev enhancer              
+chrX
+10924641
+10925118
+disk
+6
+Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified
+--------
+Summary
+--------
+ CE1010 
+ dpp 812bp BE/VM enhancer        
+chr2L
+2445768
+2446580
+mes
+30
+bin bin Ubx abd-A abd-A Ubx Ubx Ubx abd-A Ubx exd Ubx exd Ubx abd-A Ubx bin abd-A Ubx exd abd-A Ubx exd Ubx abd-A abd-A Ubx abd-A Ubx exd
+--------
+Summary
+--------
+ CE1013 
+ Stripe 3+7 enhancer             
+chr2R
+5487312
+5487824
+a-p
+16
+kni hb hb kni hb kni hb hb kni hb hb kni hb hb hb hb
+--------
+hb
+	1   5    10   15   20 
+mel	CCAGCTTCTTTGTTCCGGGCT
+	     <<<<<<<<<
+md106	......C..............
+	        <<<<<<<<<
+newc	......C..............
+	        <<<<<<<<<
+sim46	......C..............
+	        <<<<<<<<<
+w501	......C..............
+	        <<<<<<<<<
+width of the alignment matrix: 9
+                 mel  position=      6C score=   5.13  ln(p-value)=   -6.64
+               md106  position=      9C score=   0.63  ln(p-value)=   -4.41
+                newc  position=      9C score=   0.63  ln(p-value)=   -4.41
+               sim46  position=      9C score=   0.63  ln(p-value)=   -4.41
+                w501  position=      9C score=   0.63  ln(p-value)=   -4.41
+hb
+	1   5    10   15   20 
+mel	GCTAGTTTTTTT-CCCCGAACC
+	     <<<<<<<<<<
+md106	......................
+	     <<<<<<<<<<
+newc	......................
+	     <<<<<<<<<<
+sim46	......................
+	     <<<<<<<<<<
+w501	............T.........
+	     <<<<<<<<<
+width of the alignment matrix: 9
+                 mel  position=      6C score=   5.78  ln(p-value)=   -7.19
+               md106  position=      6C score=   5.78  ln(p-value)=   -7.19
+                newc  position=      6C score=   5.78  ln(p-value)=   -7.19
+               sim46  position=      6C score=   5.78  ln(p-value)=   -7.19
+                w501  position=      6C score=   6.20  ln(p-value)=   -7.61
+hb
+	1   5    10   15   20 
+mel	TTCACGTTTTTACGAGCTC
+	     <<<<<<<<<
+md106	------.............
+	      <<<<<<<<<
+newc	------.............
+	      <<<<<<<<<
+sim46	------.............
+	      <<<<<<<<<
+w501	------.............
+	      <<<<<<<<<
+width of the alignment matrix: 9
+                 mel  position=      6C score=   6.73  ln(p-value)=   -8.35
+               md106  position=      1C score=  -2.47
+                newc  position=      1C score=  -2.47
+               sim46  position=      1C score=  -2.47
+                w501  position=      1C score=  -2.47
+Summary
+--------
+ CE1014 
+ 1.4kb posterior enhancer region 
+chr3R
+4526528
+4527944
+a-p
+9
+tll tll tll tll tll tll tll tll tll
+--------
+tll
+	1   5    10   15   20 
+mel	TCCAGTCGACACGCCACGAGATTTTATGAAGGCAACTCGCTTTGC
+	                         >>>>>>>>>>
+md199	.................................G...........
+	                         >>>>>>>>>>
+newc	.................................G...........
+	                         >>>>>>>>>>
+sim46	.................................G...........
+	                         >>>>>>>>>>
+w501	.................................G...........
+	                         >>>>>>>>>>
+width of the alignment matrix: 10
+                 mel  position=     26  score=   2.73  ln(p-value)=   -5.06
+               md199  position=     26  score=   0.31  ln(p-value)=   -3.61
+                newc  position=     26  score=   0.31  ln(p-value)=   -3.61
+               sim46  position=     26  score=   0.31  ln(p-value)=   -3.61
+                w501  position=     26  score=   0.31  ln(p-value)=   -3.61
+tll
+	1   5    10   15   20 
+mel	TTTCCACCTAATGTCGGCGTCATTGTCTTCTTTATGACG
+	                      <<<<<<<<<<
+c1674	..........................G............
+	                         <<<<<<<<<<
+md106	..........................G............
+	                         <<<<<<<<<<
+newc	..........................G............
+	                         <<<<<<<<<<
+sim46	..........................G............
+	                         <<<<<<<<<<
+w501	..........................G............
+	                         <<<<<<<<<<
+width of the alignment matrix: 10
+                 mel  position=     23C score=   6.78  ln(p-value)=   -8.75
+               c1674  position=     26C score=   3.12  ln(p-value)=   -5.33
+               md106  position=     26C score=   3.12  ln(p-value)=   -5.33
+                newc  position=     26C score=   3.12  ln(p-value)=   -5.33
+               sim46  position=     26C score=   3.12  ln(p-value)=   -5.33
+                w501  position=     26C score=   3.12  ln(p-value)=   -5.33
+tll
+	1   5    10   15   20 
+mel	AACCCTTTGGCGGACGAGAAAGTTGCTAGGA
+	                >>>>>>>>>>
+c1674	............A..............G...
+	            >>>>>>>>>>
+md106	............A..............G...
+	            >>>>>>>>>>
+newc	............A..............G...
+	            >>>>>>>>>>
+w501	............A..............G...
+	            >>>>>>>>>>
+width of the alignment matrix: 10
+                 mel  position=     17  score=   1.23  ln(p-value)=   -4.11
+               c1674  position=     13  score=   1.96  ln(p-value)=   -4.55
+               md106  position=     13  score=   1.96  ln(p-value)=   -4.55
+                newc  position=     13  score=   1.96  ln(p-value)=   -4.55
+                w501  position=     13  score=   1.96  ln(p-value)=   -4.55
+tll
+	1   5    10   15   20 
+mel	ATCTTCTTGGAATTAGTTTTGGTC
+	           <<<<<<<<<<
+c1674	..............C.........
+	       <<<<<<<<<<
+md106	..............C.........
+	       <<<<<<<<<<
+newc	..............C.........
+	       <<<<<<<<<<
+w501	..............C.........
+	       <<<<<<<<<<
+width of the alignment matrix: 10
+                 mel  position=     12C score=  -0.57
+               c1674  position=      8C score=   1.13  ln(p-value)=   -4.05
+               md106  position=      8C score=   1.13  ln(p-value)=   -4.05
+                newc  position=      8C score=   1.13  ln(p-value)=   -4.05
+                w501  position=      8C score=   1.13  ln(p-value)=   -4.05
+tll
+	1   5    10   15   20 
+mel	AATGTAAAAACCTGAAAGTGACATGTAGTTA
+	              >>>>>>>>>>
+c1674	............C..............C...
+	              >>>>>>>>>>
+md106	-...........C..........C.......
+	              >>>>>>>>>>
+md199	............C..................
+	              >>>>>>>>>>
+sim46	............C..............C...
+	              >>>>>>>>>>
+w501	............C..............C...
+	              >>>>>>>>>>
+width of the alignment matrix: 10
+                 mel  position=     15  score=   4.45  ln(p-value)=   -6.36
+               c1674  position=     15  score=   4.45  ln(p-value)=   -6.36
+               md106  position=     14  score=   3.51  ln(p-value)=   -5.62
+               md199  position=     15  score=   4.45  ln(p-value)=   -6.36
+               sim46  position=     15  score=   4.45  ln(p-value)=   -6.36
+                w501  position=     15  score=   4.45  ln(p-value)=   -6.36
+Summary
+--------
+ CE1016 
+ 2.7kb Dfd EAE                   
+chr3R
+2611055
+2613713
+a-p
+15
+Dfd Dfd Dfd Dfd exd Dfd Deaf1 Dfd Dfd Dfd Dfd Deaf1 Dfd Dfd Dfd
+--------
+Deaf1
+	1   5    10   15   20 
+mel	TTTCCAACCGACTGGCGGCAAAAAGCGATCGATGGTTCGCTTTTAGCCCGAAGCTTTTAAAT
+	                                             >>>>>>>>>>>>
+md199	...........T.................T..............G.........C.......
+	                                             >>>>>>>>>>>>
+newc	...........T................................G.........C.......
+	                                             >>>>>>>>>>>>
+sim46	...........T................................G.........C.......
+	                                             >>>>>>>>>>>>
+w501	...........T................................G.........C.......
+	                                             >>>>>>>>>>>>
+width of the alignment matrix: 12
+                 mel  position=     46  score=   9.99  ln(p-value)=  -12.35
+               md199  position=     46  score=   7.73  ln(p-value)=   -9.72
+                newc  position=     46  score=   7.73  ln(p-value)=   -9.72
+               sim46  position=     46  score=   7.73  ln(p-value)=   -9.72
+                w501  position=     46  score=   7.73  ln(p-value)=   -9.72
+Summary
+--------
+ CE1018 
+ NK-1 promoter                   
+chr3R
+17382901
+17383486
+
+2
+Unspecified Unspecified
+--------
+Summary
+--------
+ CE1019 
+ dpp proximal promoter           
+chr2L
+2454605
+2454756
+
+4
+Unspecified Adf1 Unspecified Trl
+--------
+Summary
+--------
+ CE1020 
+ DNApol-alpha180_promoter        
+chr3R
+17497407
+17497685
+
+4
+Dref Dref zen Dref
+--------
+zen
+	1   5    10   15   20 
+mel	CAATAAC-TTAATCCCAAATTGCAATTTTATTATTAAGTAACATC
+	                          >>>>>>>>>>>
+c1674	-------.-------------------------------------
+
+md106	.......C..............A...........A..........
+	                          >>>>>>>>>>>
+md199	-------.-------------------------------------
+
+w501	.......C.....................................
+	                          >>>>>>>>>>>
+width of the alignment matrix: 11
+                 mel  position=     26  score=   7.74  ln(p-value)=   -9.59
+               md106  position=     27  score=   7.07  ln(p-value)=   -8.79
+                w501  position=     27  score=   7.74  ln(p-value)=   -9.59
+Summary
+--------
+ CE1021 
+ eve promoter                    
+chr2R
+5490725
+5491230
+a-p
+18
+Unspecified Unspecified Unspecified Unspecified ttk Unspecified ttk prd eve Unspecified Unspecified eve prd Unspecified Unspecified Unspecified Unspecified Unspecified
+--------
+Summary
+--------
+ CE1022 
+ tin B enhancer                  
+chr3R
+17205669
+17206042
+mes
+3
+twi eve twi
+--------
+Summary
+--------
+ CE1023 
+ 1.28 DRE                        
+chr2R
+2013540
+2014192
+a-p
+12
+Deaf1 Deaf1 Deaf1 Deaf1 Deaf1 Deaf1 Deaf1 Deaf1 Dfd Dfd Dfd Dfd
+--------
+Summary
+--------
+ CE1025 
+ twist ventral activator         
+chr2R
+18553274
+18553936
+d-v
+14
+Unspecified Unspecified Unspecified dl Unspecified dl Unspecified dl Unspecified dl Unspecified Unspecified Unspecified Unspecified
+--------
+dl
+	1   5    10   15   20 
+mel	CCGCTCGAGAAAATCGAAATCC
+	       <<<<<<<<<<
+c1674	......................
+	       <<<<<<<<<<
+md106	......................
+	       <<<<<<<<<<
+newc	......................
+	       <<<<<<<<<<
+sim46	...............A......
+	       <<<<<<<<<<
+w501	...............A......
+	       <<<<<<<<<<
+width of the alignment matrix: 10
+                 mel  position=      8C score=   6.12  ln(p-value)=   -7.89
+               c1674  position=      8C score=   6.12  ln(p-value)=   -7.89
+               md106  position=      8C score=   6.12  ln(p-value)=   -7.89
+                newc  position=      8C score=   6.12  ln(p-value)=   -7.89
+               sim46  position=      8C score=   5.59  ln(p-value)=   -7.45
+                w501  position=      8C score=   5.59  ln(p-value)=   -7.45
+Summary
+--------
+ CE1026 
+ ChAT 0.3kb 5' region            
+chr3R
+14530829
+14531165
+
+2
+Unspecified Unspecified
+--------
+Summary
+--------
+ CE1027 
+ eve MAS                         
+chr2R
+5485688
+5485890
+a-p
+6
+eve Unspecified eve Unspecified ttk Unspecified
+--------
+Summary
+--------
+ CE1028 
+ ems enhancer element IV         
+chr3R
+9720483
+9720788
+
+4
+bcd bcd tll tll
+--------
+bcd
+	1   5    10   15   20 
+mel	TTGTATTTAAATCCGTTTTGATCCTCT
+	                 <<<<<<<
+c1674	...........................
+	                 <<<<<<<
+md106	...........................
+	                 <<<<<<<
+md199	..................A........
+	       <<<<<<<
+sim46	...........................
+	                 <<<<<<<
+w501	...........................
+	                 <<<<<<<
+width of the alignment matrix: 7
+                 mel  position=     18C score=   5.80  ln(p-value)=   -7.47
+               c1674  position=     18C score=   5.80  ln(p-value)=   -7.47
+               md106  position=     18C score=   5.80  ln(p-value)=   -7.47
+               md199  position=      8C score=   5.35  ln(p-value)=   -6.79
+               sim46  position=     18C score=   5.80  ln(p-value)=   -7.47
+                w501  position=     18C score=   5.80  ln(p-value)=   -7.47
+Summary
+--------
+ CE1029 
+ iab-2(1.7) enhancer             
+chr3R
+12636228
+12637974
+a-p
+11
+Kr hb hb hb eve hb eve gt eve eve hb
+--------
+Kr
+	1   5    10   15   20 
+mel	CACGCAGTGCGTGAAAGGGTGAAGCTACCAATAC
+	            <<<<<<<<<<
+md199	.............G....................
+	            <<<<<<<<<<
+newc	.............G....................
+	            <<<<<<<<<<
+sim46	.............G....................
+	            <<<<<<<<<<
+w501	.............G....................
+	            <<<<<<<<<<
+width of the alignment matrix: 10
+                 mel  position=     13C score=   9.30  ln(p-value)=  -11.30
+               md199  position=     13C score=   3.50  ln(p-value)=   -6.52
+                newc  position=     13C score=   3.50  ln(p-value)=   -6.52
+               sim46  position=     13C score=   3.50  ln(p-value)=   -6.52
+                w501  position=     13C score=   3.50  ln(p-value)=   -6.52
+eve
+	1   5    10   15   20 
+mel	TTCCAACGGTAACTGTTCAAGCAGAC
+	         >>>>>>>
+newc	.............C.C..........
+	   >>>>>>>
+sim46	.............C.C..........
+	   >>>>>>>
+w501	.............C.C..........
+	   >>>>>>>
+width of the alignment matrix: 7
+                 mel  position=     10  score=  -2.59
+                newc  position=      4  score=  -3.18
+               sim46  position=      4  score=  -3.18
+                w501  position=      4  score=  -3.18
+Summary
+--------
+ CE1030 
+ sal enhancer                    
+chr2L
+11455638
+11456155
+a-p
+18
+Kr bcd cad cad cad bcd bcd bcd Kr bcd hkb bcd cad Kr Kr bcd hb hkb
+--------
+Kr
+	1   5    10   15   20 
+mel	AGCGTGAAATTTGTGCCATCCTTTTGCGTGG
+	               >>>>>>>>>>
+c1674	...........-....T..............
+	               >>>>>>>>>>
+md106	...........-...................
+	               >>>>>>>>>>
+md199	...........-...................
+	               >>>>>>>>>>
+newc	...........-...................
+	               >>>>>>>>>>
+sim46	...........-...................
+	               >>>>>>>>>>
+w501	...........-...................
+	               >>>>>>>>>>
+width of the alignment matrix: 10
+                 mel  position=     16  score=   7.51  ln(p-value)=   -9.19
+               c1674  position=     15  score=   5.99  ln(p-value)=   -8.00
+               md106  position=     15  score=   7.51  ln(p-value)=   -9.19
+               md199  position=     15  score=   7.51  ln(p-value)=   -9.19
+                newc  position=     15  score=   7.51  ln(p-value)=   -9.19
+               sim46  position=     15  score=   7.51  ln(p-value)=   -9.19
+                w501  position=     15  score=   7.51  ln(p-value)=   -9.19
+Summary
+--------
+ CE1031 
+ en promoter                     
+chr2R
+7043574
+7044213
+
+8
+Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified
+--------
+Summary
+--------
+ CE1032 
+ tin 5' region                   
+chr3R
+17203781
+17205010
+

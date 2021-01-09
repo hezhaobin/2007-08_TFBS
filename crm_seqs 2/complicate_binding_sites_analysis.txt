@@ -1,0 +1,79 @@
+Summary
+--------
+ CE1007 
+ DNA IIA237 enhancer             
+chr2R
+5447092
+5447330
+
+2
+tin tin
+--------
+Summary
+--------
+ CE1008 
+ 475bp sev enhancer              
+chrX
+10924641
+10925118
+disk
+6
+Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified
+--------
+Summary
+--------
+ CE1010 
+ dpp 812bp BE/VM enhancer        
+chr2L
+2445768
+2446580
+mes
+30
+bin bin Ubx abd-A abd-A Ubx Ubx Ubx abd-A Ubx exd Ubx exd Ubx abd-A Ubx bin abd-A Ubx exd abd-A Ubx exd Ubx abd-A abd-A Ubx abd-A Ubx exd
+--------
+Summary
+--------
+ CE1013 
+ Stripe 3+7 enhancer             
+chr2R
+5487312
+5487824
+a-p
+16
+kni hb hb kni hb kni hb hb kni hb hb kni hb hb hb hb
+--------
+kni
+	1   5    10   15   20 
+mel	tttcgCTGCGCTAGTTTtttt-
+	              <<<<<<
+md106	......................
+	               <<<<<<
+newc	......................
+	              <<<<<<
+sim46	......................
+	               <<<<<<
+w501	.....................t
+	              <<<<<<
+width of the alignment matrix: 6
+                 mel  position=     15C score=   4.95  ln(p-value)=   -6.20
+                 mel  position=     16C score=   4.95  ln(p-value)=   -6.20
+               md106  position=     15C score=   4.95  ln(p-value)=   -6.20
+               md106  position=     16C score=   4.95  ln(p-value)=   -6.20
+                newc  position=     15C score=   4.95  ln(p-value)=   -6.20
+                newc  position=     16C score=   4.95  ln(p-value)=   -6.20
+               sim46  position=     15C score=   4.95  ln(p-value)=   -6.20
+               sim46  position=     16C score=   4.95  ln(p-value)=   -6.20
+                w501  position=     15C score=   4.95  ln(p-value)=   -6.20
+                w501  position=     16C score=   4.95  ln(p-value)=   -6.20
+                w501  position=     17C score=   4.95  ln(p-value)=   -6.20
+Summary
+--------
+ CE1014 
+ 1.4kb posterior enhancer region 
+chr3R
+4526528
+4527944
+a-p
+9
+tll tll tll tll tll tll tll tll tll
+--------

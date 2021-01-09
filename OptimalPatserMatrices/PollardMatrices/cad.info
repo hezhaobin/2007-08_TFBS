@@ -1,0 +1,26 @@
+# Name
+cad
+
+# Construction Info
+Meme was run on the footprints with fixed width equal to the width of the smallest footprint and flanking sequence was not added and so footprints less than 9bp or the fixed width were excluded.
+
+# Pubmed Ids for Footprinted Sites
+"9376314"
+"7617036"
+"2571934"
+
+# Footprints
+GATTATAAT
+GCTTTGCGACAATTAAG
+CGTACTAATTA
+ACACCCATCATTTTTCAATATTTGAGCG
+AACGAAATCGCTG
+ATTGGCCTAAAAA
+CCACGTTTGCACG
+GTCATAAAGTCA
+GTAACCATAAAAATT
+CGAGCCAAACAA
+AAGCGGAAAA
+AATTTTTAGGGAACCATAAACGG
+AGTTTTTATGTCTTTATGATT
+

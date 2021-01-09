@@ -1,0 +1,15 @@
+# Name
+ftz-f1
+
+# Construction Info
+Meme was run on the footprints with fixed width 18 and flanking sequence was added for footprints less than 9bp or the fixed width.
+
+# Pubmed Ids for Footprinted Sites
+"9043065"
+"8164672"
+
+# Footprints
+CGTGAGCGGTGACCTTCGACCTGA
+TTGTGGCAGTGTCCTTCGGATTTA
+ACCGTCTCAAGGTCGCCGAG
+

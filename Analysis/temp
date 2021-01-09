@@ -1,0 +1,11 @@
+--15:35:36--  http://pipeline.lbl.gov/cgi-bin/gp_align?run=94&base=dm2&pos=chrX:6937910-6939713&org=160
+           => `temp.fa'
+Resolving pipeline.lbl.gov... 131.243.56.235
+Connecting to pipeline.lbl.gov|131.243.56.235|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K .......... .......... .....                             155.07 KB/s
+
+15:35:37 (155.07 KB/s) - `temp.fa' saved [25985]
+

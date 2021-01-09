@@ -1,0 +1,16 @@
+# Name
+gl
+
+# Construction Info
+Meme was run on the footprints with fixed width 12 and flanking sequence was not added and so footprints less than 9bp or the fixed width were excluded.
+
+# Pubmed Ids for Footprinted Sites
+"2010085"
+
+# Footprints
+GCGAGGCTTCTAAAATCAATGAAATACTTTTCGGGCTGCACCGATGGGGCTTCTC
+TTATGCTGCCACTCAAG
+GTTAAAGGCATTTCAAGGGTTTCCA
+AGCGATTTAATGTGTCA
+AATTTGAAGAATATTATGAAAACATATCGTAGCAGAAGAAATATCAGTATCG
+

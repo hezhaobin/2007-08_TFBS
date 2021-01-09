@@ -1,0 +1,15 @@
+# Name
+SuH
+
+# Construction Info
+Meme was run on the footprints with fixed width 14 and flanking sequence was added for footprints less than 9bp or the fixed width.
+
+# Pubmed Ids for Footprinted Sites
+"8700202"
+"14701680"
+
+# Footprints
+CAGAAAAGTTCTCACGATCGC
+TTGTAGTTCCCAACTTGC
+TTGGTTTTCACATTCAAT
+

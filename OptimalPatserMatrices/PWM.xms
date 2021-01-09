@@ -1,0 +1,1748 @@
+<motifset>
+  <motif>
+    <name>prd</name>
+    <weightmatrix alphabet="DNA" columns="6">
+      <column pos="0">
+        <weight symbol="thymine">0.023075948683574432</weight>
+        <weight symbol="guanine">0.1270018391949288</weight>
+        <weight symbol="cytosine">0.0649290120082836</weight>
+        <weight symbol="adenine">0.7849932001132132</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.016397415788518846</weight>
+        <weight symbol="guanine">0.005535205162668989</weight>
+        <weight symbol="cytosine">0.12565875520231087</weight>
+        <weight symbol="adenine">0.8524086238465013</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.008714283291660107</weight>
+        <weight symbol="guanine">0.0023179406052452724</weight>
+        <weight symbol="cytosine">0.00825279115892114</weight>
+        <weight symbol="adenine">0.9807149849441734</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.17335043260716143</weight>
+        <weight symbol="guanine">0.08511607153051999</weight>
+        <weight symbol="cytosine">0.7323310460257244</weight>
+        <weight symbol="adenine">0.009202449836594153</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.5041758018832252</weight>
+        <weight symbol="guanine">0.031311640037495155</weight>
+        <weight symbol="cytosine">0.4544138911658676</weight>
+        <weight symbol="adenine">0.010098666913412057</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.001213029744214164</weight>
+        <weight symbol="guanine">0.9116373611555522</weight>
+        <weight symbol="cytosine">0.02640532044547197</weight>
+        <weight symbol="adenine">0.06074428865476132</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>bcd</name>
+    <weightmatrix alphabet="DNA" columns="7">
+      <column pos="0">
+        <weight symbol="thymine">0.1362008871409174</weight>
+        <weight symbol="guanine">0.6196381405293446</weight>
+        <weight symbol="cytosine">0.030434631592631482</weight>
+        <weight symbol="adenine">0.21372634073710622</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.002391716036721966</weight>
+        <weight symbol="guanine">0.9926985338741826</weight>
+        <weight symbol="cytosine">0.004503338776109267</weight>
+        <weight symbol="adenine">4.064113129862202E-4</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.0016390039752103953</weight>
+        <weight symbol="guanine">0.0015531822155933246</weight>
+        <weight symbol="cytosine">0.3654213715891275</weight>
+        <weight symbol="adenine">0.6313864422200685</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.9907684826630735</weight>
+        <weight symbol="guanine">0.0036867794505657555</weight>
+        <weight symbol="cytosine">0.004237804567305643</weight>
+        <weight symbol="adenine">0.0013069333190551403</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.7891340132257902</weight>
+        <weight symbol="guanine">0.0065740128979260275</weight>
+        <weight symbol="cytosine">0.17521285146453058</weight>
+        <weight symbol="adenine">0.02907912241175316</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.17216879740657381</weight>
+        <weight symbol="guanine">0.031001234713417695</weight>
+        <weight symbol="cytosine">0.008529697944785614</weight>
+        <weight symbol="adenine">0.7883002699352227</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.18152295558456416</weight>
+        <weight symbol="guanine">0.37294384206322306</weight>
+        <weight symbol="cytosine">0.04105591884700881</weight>
+        <weight symbol="adenine">0.40447728350520396</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>brk</name>
+    <weightmatrix alphabet="DNA" columns="8">
+      <column pos="0">
+        <weight symbol="thymine">0.029053042258937057</weight>
+        <weight symbol="guanine">0.3740935966687772</weight>
+        <weight symbol="cytosine">0.07168618121113998</weight>
+        <weight symbol="adenine">0.5251671798611459</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.12348310032620588</weight>
+        <weight symbol="guanine">0.737765254445279</weight>
+        <weight symbol="cytosine">0.01682542713165946</weight>
+        <weight symbol="adenine">0.12192621809685572</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.06730229832437463</weight>
+        <weight symbol="guanine">0.02383513053299666</weight>
+        <weight symbol="cytosine">0.6183545538299617</weight>
+        <weight symbol="adenine">0.29050801731266707</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">1.8729772859574578E-4</weight>
+        <weight symbol="guanine">0.9747093673892623</weight>
+        <weight symbol="cytosine">0.020221643717777196</weight>
+        <weight symbol="adenine">0.004881691164364756</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.10546120368415043</weight>
+        <weight symbol="guanine">0.006776340545182253</weight>
+        <weight symbol="cytosine">0.8056570128038918</weight>
+        <weight symbol="adenine">0.08210544296677584</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.0010407790778775875</weight>
+        <weight symbol="guanine">0.0042121885457342915</weight>
+        <weight symbol="cytosine">0.9943015902812276</weight>
+        <weight symbol="adenine">4.4544209516051054E-4</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.0788651150553054</weight>
+        <weight symbol="guanine">0.5039119900801685</weight>
+        <weight symbol="cytosine">0.01966146293637792</weight>
+        <weight symbol="adenine">0.39756143192814813</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.06092602748342839</weight>
+        <weight symbol="guanine">0.7153707383911181</weight>
+        <weight symbol="cytosine">0.21145000406510164</weight>
+        <weight symbol="adenine">0.012253230060352158</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>tin</name>
+    <weightmatrix alphabet="DNA" columns="10">
+      <column pos="0">
+        <weight symbol="thymine">0.5126185151906509</weight>
+        <weight symbol="guanine">0.3183192646505133</weight>
+        <weight symbol="cytosine">0.16018707953948497</weight>
+        <weight symbol="adenine">0.008875140619350796</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.06161664659588703</weight>
+        <weight symbol="guanine">0.1992790858878795</weight>
+        <weight symbol="cytosine">0.7380099487017056</weight>
+        <weight symbol="adenine">0.0010943188145276666</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.870301511582074</weight>
+        <weight symbol="guanine">0.017924504544675382</weight>
+        <weight symbol="cytosine">0.09341084418734402</weight>
+        <weight symbol="adenine">0.018363139685906613</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.21731749061611624</weight>
+        <weight symbol="guanine">0.011535875147498958</weight>
+        <weight symbol="cytosine">0.7673636977595429</weight>
+        <weight symbol="adenine">0.003782936476841873</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.013869798027401506</weight>
+        <weight symbol="guanine">0.0048397236387533295</weight>
+        <weight symbol="cytosine">3.466182882864399E-4</weight>
+        <weight symbol="adenine">0.9809438600455591</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.010024603069346555</weight>
+        <weight symbol="guanine">0.014805794804881986</weight>
+        <weight symbol="cytosine">0.017221054791188895</weight>
+        <weight symbol="adenine">0.9579485473345826</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.012290957216216888</weight>
+        <weight symbol="guanine">0.9789258572308925</weight>
+        <weight symbol="cytosine">0.008536639955122825</weight>
+        <weight symbol="adenine">2.4654559776740527E-4</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.7666919612053761</weight>
+        <weight symbol="guanine">0.2249045045658252</weight>
+        <weight symbol="cytosine">0.0076742388991593155</weight>
+        <weight symbol="adenine">7.292953296394192E-4</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.06239156433028566</weight>
+        <weight symbol="guanine">0.9328512777528745</weight>
+        <weight symbol="cytosine">0.003972547166079538</weight>
+        <weight symbol="adenine">7.846107507601214E-4</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.01195026345769855</weight>
+        <weight symbol="guanine">0.617745857072916</weight>
+        <weight symbol="cytosine">0.3422000162170692</weight>
+        <weight symbol="adenine">0.028103863252316175</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>vvl</name>
+    <weightmatrix alphabet="DNA" columns="8">
+      <column pos="0">
+        <weight symbol="thymine">0.731232117250466</weight>
+        <weight symbol="guanine">0.05351619168039505</weight>
+        <weight symbol="cytosine">0.011139789800286131</weight>
+        <weight symbol="adenine">0.2041119012688529</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.6389775792680558</weight>
+        <weight symbol="guanine">0.24434825471322383</weight>
+        <weight symbol="cytosine">0.06157597445007045</weight>
+        <weight symbol="adenine">0.05509819156864982</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.809330157687662</weight>
+        <weight symbol="guanine">0.01313941620405314</weight>
+        <weight symbol="cytosine">0.027663360383762787</weight>
+        <weight symbol="adenine">0.149867065724522</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.6431347340090642</weight>
+        <weight symbol="guanine">0.3096686753261099</weight>
+        <weight symbol="cytosine">0.01743135007075038</weight>
+        <weight symbol="adenine">0.029765240594074698</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.03552507135677877</weight>
+        <weight symbol="guanine">0.029909409557351517</weight>
+        <weight symbol="cytosine">0.40821008020430555</weight>
+        <weight symbol="adenine">0.526355438881564</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.0013938827001578392</weight>
+        <weight symbol="guanine">0.003784326449451979</weight>
+        <weight symbol="cytosine">0.0014244445712836814</weight>
+        <weight symbol="adenine">0.9933973462791066</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.9390910645288614</weight>
+        <weight symbol="guanine">0.009088642676300447</weight>
+        <weight symbol="cytosine">0.035060168807717125</weight>
+        <weight symbol="adenine">0.016760123987121088</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.3894321278468298</weight>
+        <weight symbol="guanine">0.1363392174626889</weight>
+        <weight symbol="cytosine">0.04129040445015285</weight>
+        <weight symbol="adenine">0.4329382502403288</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>Deaf1</name>
+    <weightmatrix alphabet="DNA" columns="12">
+      <column pos="0">
+        <weight symbol="thymine">0.13236305930509565</weight>
+        <weight symbol="guanine">0.41611102818643525</weight>
+        <weight symbol="cytosine">0.2184474368453969</weight>
+        <weight symbol="adenine">0.23307847566307208</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.10689284436122361</weight>
+        <weight symbol="guanine">0.3621386342038764</weight>
+        <weight symbol="cytosine">0.5115699725720475</weight>
+        <weight symbol="adenine">0.019398548862852357</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.0021273799957949634</weight>
+        <weight symbol="guanine">0.022731839853107064</weight>
+        <weight symbol="cytosine">0.9536537536740185</weight>
+        <weight symbol="adenine">0.02148702647707936</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">2.693468904347616E-4</weight>
+        <weight symbol="guanine">0.022959701318673708</weight>
+        <weight symbol="cytosine">0.9446403847987346</weight>
+        <weight symbol="adenine">0.03213056699215722</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.008236761714332312</weight>
+        <weight symbol="guanine">0.7909979410435318</weight>
+        <weight symbol="cytosine">0.046436951403643976</weight>
+        <weight symbol="adenine">0.1543283458384922</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.03926810954825292</weight>
+        <weight symbol="guanine">0.09473769961226092</weight>
+        <weight symbol="cytosine">0.13279954714936693</weight>
+        <weight symbol="adenine">0.733194643690119</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.009474808629812507</weight>
+        <weight symbol="guanine">0.015320560279230368</weight>
+        <weight symbol="cytosine">0.32341452096786566</weight>
+        <weight symbol="adenine">0.6517901101230915</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.38474664658547203</weight>
+        <weight symbol="guanine">0.5263420392347151</weight>
+        <weight symbol="cytosine">0.01042120253358549</weight>
+        <weight symbol="adenine">0.07849011164622735</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.029572572473564405</weight>
+        <weight symbol="guanine">0.1447880111421306</weight>
+        <weight symbol="cytosine">0.6389115304198415</weight>
+        <weight symbol="adenine">0.18672788596446346</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.17487011834602623</weight>
+        <weight symbol="guanine">0.6979432228201411</weight>
+        <weight symbol="cytosine">0.011446329843060186</weight>
+        <weight symbol="adenine">0.11574032899077266</weight>
+      </column>
+      <column pos="10">
+        <weight symbol="thymine">0.19544296220239732</weight>
+        <weight symbol="guanine">0.15554137367332865</weight>
+        <weight symbol="cytosine">0.5305416038867968</weight>
+        <weight symbol="adenine">0.1184740602374772</weight>
+      </column>
+      <column pos="11">
+        <weight symbol="thymine">0.8452735259002369</weight>
+        <weight symbol="guanine">0.017437334757667688</weight>
+        <weight symbol="cytosine">0.08396795166612149</weight>
+        <weight symbol="adenine">0.05332118767597409</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>ovo</name>
+    <weightmatrix alphabet="DNA" columns="11">
+      <column pos="0">
+        <weight symbol="thymine">0.03579800921270969</weight>
+        <weight symbol="guanine">0.013471317386002555</weight>
+        <weight symbol="cytosine">0.9067417305738591</weight>
+        <weight symbol="adenine">0.04398894282742855</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.37148362594369033</weight>
+        <weight symbol="guanine">0.03237706482022712</weight>
+        <weight symbol="cytosine">0.4177163008152611</weight>
+        <weight symbol="adenine">0.17842300842082132</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">1.3391158996881063E-4</weight>
+        <weight symbol="guanine">0.9888499887883305</weight>
+        <weight symbol="cytosine">0.01018377566767308</weight>
+        <weight symbol="adenine">8.323239540276294E-4</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.9634720094032468</weight>
+        <weight symbol="guanine">0.028091999296522282</weight>
+        <weight symbol="cytosine">0.0035398704318103233</weight>
+        <weight symbol="adenine">0.004896120868420477</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.8645412794361029</weight>
+        <weight symbol="guanine">0.09676774277696847</weight>
+        <weight symbol="cytosine">5.236594283034478E-4</weight>
+        <weight symbol="adenine">0.03816731835862509</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">7.22039723296758E-4</weight>
+        <weight symbol="guanine">0.07640402059185192</weight>
+        <weight symbol="cytosine">0.07700175962915903</weight>
+        <weight symbol="adenine">0.8458721800556923</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.0010398919628598412</weight>
+        <weight symbol="guanine">0.08137128926255195</weight>
+        <weight symbol="cytosine">0.7482683374684567</weight>
+        <weight symbol="adenine">0.16932048130613142</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.5423632620685305</weight>
+        <weight symbol="guanine">0.04110444692543406</weight>
+        <weight symbol="cytosine">0.008359988764643445</weight>
+        <weight symbol="adenine">0.40817230224139206</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.6775100961854634</weight>
+        <weight symbol="guanine">0.1824422280916617</weight>
+        <weight symbol="cytosine">0.0628801551646199</weight>
+        <weight symbol="adenine">0.07716752055825542</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.4959259250868016</weight>
+        <weight symbol="guanine">0.13405841085952488</weight>
+        <weight symbol="cytosine">0.25374903833243895</weight>
+        <weight symbol="adenine">0.11626662572123453</weight>
+      </column>
+      <column pos="10">
+        <weight symbol="thymine">0.6223472967507577</weight>
+        <weight symbol="guanine">0.17336651192377991</weight>
+        <weight symbol="cytosine">0.025143426712166964</weight>
+        <weight symbol="adenine">0.17914276461329517</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>slbo</name>
+    <weightmatrix alphabet="DNA" columns="8">
+      <column pos="0">
+        <weight symbol="thymine">0.17180406475898663</weight>
+        <weight symbol="guanine">0.6006663557555887</weight>
+        <weight symbol="cytosine">0.008174414538678166</weight>
+        <weight symbol="adenine">0.21935516494674645</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.2449022689083692</weight>
+        <weight symbol="guanine">0.001307619381246704</weight>
+        <weight symbol="cytosine">0.6552105386441566</weight>
+        <weight symbol="adenine">0.09857957306622772</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.015671024003384968</weight>
+        <weight symbol="guanine">0.021608730542814283</weight>
+        <weight symbol="cytosine">0.10544803950933296</weight>
+        <weight symbol="adenine">0.8572722059444677</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.3036236760340464</weight>
+        <weight symbol="guanine">0.006044679537496047</weight>
+        <weight symbol="cytosine">0.1896811536128813</weight>
+        <weight symbol="adenine">0.5006504908155763</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.673084617339085</weight>
+        <weight symbol="guanine">0.011026663098944692</weight>
+        <weight symbol="cytosine">0.007825552982490052</weight>
+        <weight symbol="adenine">0.30806316657948</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.13923116797210042</weight>
+        <weight symbol="guanine">0.03835575918929145</weight>
+        <weight symbol="cytosine">0.6184097723826313</weight>
+        <weight symbol="adenine">0.2040033004559769</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.00268619125698374</weight>
+        <weight symbol="guanine">0.007145684055926546</weight>
+        <weight symbol="cytosine">4.1849187120261683E-4</weight>
+        <weight symbol="adenine">0.989749632815887</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.003266351350553993</weight>
+        <weight symbol="guanine">0.3636737638747949</weight>
+        <weight symbol="cytosine">0.0016910954985894706</weight>
+        <weight symbol="adenine">0.631368789276062</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>Antp</name>
+    <weightmatrix alphabet="DNA" columns="12">
+      <column pos="0">
+        <weight symbol="thymine">0.1433437243127895</weight>
+        <weight symbol="guanine">0.04548958680171083</weight>
+        <weight symbol="cytosine">0.009293141036751535</weight>
+        <weight symbol="adenine">0.8018735478487481</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.4853687369069798</weight>
+        <weight symbol="guanine">0.03749801182508357</weight>
+        <weight symbol="cytosine">0.12761008398512155</weight>
+        <weight symbol="adenine">0.34952316728281513</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.34770717200065876</weight>
+        <weight symbol="guanine">0.015530547486082385</weight>
+        <weight symbol="cytosine">0.02240521430568701</weight>
+        <weight symbol="adenine">0.6143570662075714</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.28911680674137435</weight>
+        <weight symbol="guanine">0.052960564062865534</weight>
+        <weight symbol="cytosine">0.08970614810869446</weight>
+        <weight symbol="adenine">0.5682164810870657</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.12187877113124869</weight>
+        <weight symbol="guanine">0.011881338931567913</weight>
+        <weight symbol="cytosine">0.004781542095239239</weight>
+        <weight symbol="adenine">0.8614583478419442</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.9579424149244787</weight>
+        <weight symbol="guanine">0.0020996562348387132</weight>
+        <weight symbol="cytosine">0.008534700193190395</weight>
+        <weight symbol="adenine">0.031423228647492654</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.021363252050963854</weight>
+        <weight symbol="guanine">0.10604078957483444</weight>
+        <weight symbol="cytosine">0.23056959292390847</weight>
+        <weight symbol="adenine">0.6420263654502935</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.011630130118919578</weight>
+        <weight symbol="guanine">0.013229778966994598</weight>
+        <weight symbol="cytosine">0.17653840076707566</weight>
+        <weight symbol="adenine">0.7986016901470101</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.8364996634046672</weight>
+        <weight symbol="guanine">0.018913858748810224</weight>
+        <weight symbol="cytosine">0.019499943982262492</weight>
+        <weight symbol="adenine">0.12508653386426016</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.017230946559212923</weight>
+        <weight symbol="guanine">5.42735295999241E-4</weight>
+        <weight symbol="cytosine">0.036787524662346055</weight>
+        <weight symbol="adenine">0.9454387934824416</weight>
+      </column>
+      <column pos="10">
+        <weight symbol="thymine">0.23325327830970383</weight>
+        <weight symbol="guanine">0.024133715847741728</weight>
+        <weight symbol="cytosine">0.005205020424382009</weight>
+        <weight symbol="adenine">0.7374079854181724</weight>
+      </column>
+      <column pos="11">
+        <weight symbol="thymine">0.8884121511931692</weight>
+        <weight symbol="guanine">0.033710234036207445</weight>
+        <weight symbol="cytosine">0.024175792624006466</weight>
+        <weight symbol="adenine">0.05370182214661695</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>cad</name>
+    <weightmatrix alphabet="DNA" columns="8">
+      <column pos="0">
+        <weight symbol="thymine">0.014416061740598977</weight>
+        <weight symbol="guanine">0.09026200769989867</weight>
+        <weight symbol="cytosine">0.008015937961472779</weight>
+        <weight symbol="adenine">0.8873059925980293</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.01057052153236007</weight>
+        <weight symbol="guanine">0.0016361421286492865</weight>
+        <weight symbol="cytosine">0.07779683211399707</weight>
+        <weight symbol="adenine">0.9099965042249938</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.02555628513241304</weight>
+        <weight symbol="guanine">0.08740741123389852</weight>
+        <weight symbol="cytosine">0.023795838929841464</weight>
+        <weight symbol="adenine">0.8632404647038472</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.3143663253271196</weight>
+        <weight symbol="guanine">0.03322335754216005</weight>
+        <weight symbol="cytosine">5.796544428014776E-4</weight>
+        <weight symbol="adenine">0.6518306626879187</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.007993010124824996</weight>
+        <weight symbol="guanine">0.05416111323261025</weight>
+        <weight symbol="cytosine">0.003961747916111758</weight>
+        <weight symbol="adenine">0.9338841287264529</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.9192775854119661</weight>
+        <weight symbol="guanine">0.00887682623426419</weight>
+        <weight symbol="cytosine">0.057923558646448</weight>
+        <weight symbol="adenine">0.013922029707321724</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.8845129977081014</weight>
+        <weight symbol="guanine">0.08670281601276798</weight>
+        <weight symbol="cytosine">0.025937533706811018</weight>
+        <weight symbol="adenine">0.0028466525723197886</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.49288291447831256</weight>
+        <weight symbol="guanine">0.45663453731226217</weight>
+        <weight symbol="cytosine">0.035418339397212735</weight>
+        <weight symbol="adenine">0.015064208812212111</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>zen</name>
+    <weightmatrix alphabet="DNA" columns="11">
+      <column pos="0">
+        <weight symbol="thymine">0.6808382856728735</weight>
+        <weight symbol="guanine">0.05399132155725762</weight>
+        <weight symbol="cytosine">0.013195690068377943</weight>
+        <weight symbol="adenine">0.2519747027014912</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.921852745430163</weight>
+        <weight symbol="guanine">0.0689712005779447</weight>
+        <weight symbol="cytosine">0.004635619724636156</weight>
+        <weight symbol="adenine">0.004540434267256431</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.6296050375027821</weight>
+        <weight symbol="guanine">0.04640149785039957</weight>
+        <weight symbol="cytosine">0.05211253482617801</weight>
+        <weight symbol="adenine">0.27188092982064044</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.00899871918748711</weight>
+        <weight symbol="guanine">0.022818822024873165</weight>
+        <weight symbol="cytosine">4.349919826706123E-4</weight>
+        <weight symbol="adenine">0.9677474668049694</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.9525605553940145</weight>
+        <weight symbol="guanine">0.004244341260705558</weight>
+        <weight symbol="cytosine">0.029667042607454227</weight>
+        <weight symbol="adenine">0.01352806073782566</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.9745535721896675</weight>
+        <weight symbol="guanine">0.014245499473831677</weight>
+        <weight symbol="cytosine">0.010983541598649163</weight>
+        <weight symbol="adenine">2.173867378517129E-4</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.45837011409253153</weight>
+        <weight symbol="guanine">0.283943897664947</weight>
+        <weight symbol="cytosine">0.006137692407216519</weight>
+        <weight symbol="adenine">0.251548295835305</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.5629724998783581</weight>
+        <weight symbol="guanine">0.0051270305761727825</weight>
+        <weight symbol="cytosine">0.13876852077041282</weight>
+        <weight symbol="adenine">0.2931319487750564</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.4746457917454828</weight>
+        <weight symbol="guanine">0.05567607189962709</weight>
+        <weight symbol="cytosine">0.22585460911614696</weight>
+        <weight symbol="adenine">0.243823527238743</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.060967471154924194</weight>
+        <weight symbol="guanine">0.0334757668139198</weight>
+        <weight symbol="cytosine">0.06993117896567097</weight>
+        <weight symbol="adenine">0.8356255830654853</weight>
+      </column>
+      <column pos="10">
+        <weight symbol="thymine">0.7282460304861446</weight>
+        <weight symbol="guanine">0.05696565860556495</weight>
+        <weight symbol="cytosine">9.481371859292249E-4</weight>
+        <weight symbol="adenine">0.21384017372236097</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>ap</name>
+    <weightmatrix alphabet="DNA" columns="7">
+      <column pos="0">
+        <weight symbol="thymine">0.5131297663121435</weight>
+        <weight symbol="guanine">0.3227782843108186</weight>
+        <weight symbol="cytosine">0.14127272523000578</weight>
+        <weight symbol="adenine">0.022819224147032264</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.10075582970055494</weight>
+        <weight symbol="guanine">0.034826443267433345</weight>
+        <weight symbol="cytosine">0.008566698062163938</weight>
+        <weight symbol="adenine">0.8558510289698479</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.8116410134046425</weight>
+        <weight symbol="guanine">0.0023893999834134045</weight>
+        <weight symbol="cytosine">0.17671126178757354</weight>
+        <weight symbol="adenine">0.00925832482436964</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.47212979011831896</weight>
+        <weight symbol="guanine">0.14528609153600588</weight>
+        <weight symbol="cytosine">0.018806204248979844</weight>
+        <weight symbol="adenine">0.36377791409669546</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.14669669996051538</weight>
+        <weight symbol="guanine">0.019272975789255298</weight>
+        <weight symbol="cytosine">0.011973632621055729</weight>
+        <weight symbol="adenine">0.8220566916291734</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.9944568232784877</weight>
+        <weight symbol="guanine">2.8844932248102287E-4</weight>
+        <weight symbol="cytosine">8.308456062901709E-5</weight>
+        <weight symbol="adenine">0.005171642838402347</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.9852852913638048</weight>
+        <weight symbol="guanine">0.01340491378558991</weight>
+        <weight symbol="cytosine">5.332487868286298E-4</weight>
+        <weight symbol="adenine">7.765460637766894E-4</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>twi</name>
+    <weightmatrix alphabet="DNA" columns="9">
+      <column pos="0">
+        <weight symbol="thymine">0.1368834685524308</weight>
+        <weight symbol="guanine">0.014790771072179855</weight>
+        <weight symbol="cytosine">0.22814966491757202</weight>
+        <weight symbol="adenine">0.6201760954578169</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.010068556509856956</weight>
+        <weight symbol="guanine">0.304570238202045</weight>
+        <weight symbol="cytosine">0.00821341524245949</weight>
+        <weight symbol="adenine">0.6771477900456384</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.002778487123010129</weight>
+        <weight symbol="guanine">0.014602527833652821</weight>
+        <weight symbol="cytosine">0.9802955408663173</weight>
+        <weight symbol="adenine">0.002323444177019831</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.007794424447343952</weight>
+        <weight symbol="guanine">0.006248650615201931</weight>
+        <weight symbol="cytosine">0.00903835852047461</weight>
+        <weight symbol="adenine">0.9769185664169794</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.5032927100468614</weight>
+        <weight symbol="guanine">0.005780571603217649</weight>
+        <weight symbol="cytosine">0.46805387951602173</weight>
+        <weight symbol="adenine">0.022872838833899213</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.009473767089304015</weight>
+        <weight symbol="guanine">0.1560817738886979</weight>
+        <weight symbol="cytosine">0.0011477900370671756</weight>
+        <weight symbol="adenine">0.833296668984931</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.9771973122378192</weight>
+        <weight symbol="guanine">0.011607906753873838</weight>
+        <weight symbol="cytosine">0.009552563924999173</weight>
+        <weight symbol="adenine">0.0016422170833075875</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.17835415168847257</weight>
+        <weight symbol="guanine">0.8075338722569005</weight>
+        <weight symbol="cytosine">2.1560033953967408E-4</weight>
+        <weight symbol="adenine">0.013896375715086852</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.53174949050633</weight>
+        <weight symbol="guanine">0.036229720135810516</weight>
+        <weight symbol="cytosine">0.38414061188287224</weight>
+        <weight symbol="adenine">0.04788017747498699</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>Dfd</name>
+    <weightmatrix alphabet="DNA" columns="5">
+      <column pos="0">
+        <weight symbol="thymine">0.009725898461070987</weight>
+        <weight symbol="guanine">0.013894387769149886</weight>
+        <weight symbol="cytosine">0.2481589968657206</weight>
+        <weight symbol="adenine">0.7282207169040584</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.21723681789407673</weight>
+        <weight symbol="guanine">2.163464538263256E-4</weight>
+        <weight symbol="cytosine">3.694127037511371E-4</weight>
+        <weight symbol="adenine">0.7821774229483459</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.9910073375607977</weight>
+        <weight symbol="guanine">0.004091597621493652</weight>
+        <weight symbol="cytosine">1.7688021227493122E-4</weight>
+        <weight symbol="adenine">0.004724184605433632</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.75309085297107</weight>
+        <weight symbol="guanine">0.09005683636273264</weight>
+        <weight symbol="cytosine">0.13504975947655462</weight>
+        <weight symbol="adenine">0.02180255118964274</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.0024578453605009873</weight>
+        <weight symbol="guanine">0.002064116150062192</weight>
+        <weight symbol="cytosine">0.013331843316386866</weight>
+        <weight symbol="adenine">0.9821461951730504</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>br-Z3</name>
+    <weightmatrix alphabet="DNA" columns="10">
+      <column pos="0">
+        <weight symbol="thymine">0.4713183895168268</weight>
+        <weight symbol="guanine">0.09065621790483581</weight>
+        <weight symbol="cytosine">0.06592188231139437</weight>
+        <weight symbol="adenine">0.3721035102669431</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.45934956720535053</weight>
+        <weight symbol="guanine">0.014433576974241682</weight>
+        <weight symbol="cytosine">0.13099485607753436</weight>
+        <weight symbol="adenine">0.3952219997428737</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.8209250835558985</weight>
+        <weight symbol="guanine">0.027154135388912395</weight>
+        <weight symbol="cytosine">0.004813590590435799</weight>
+        <weight symbol="adenine">0.14710719046475315</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.6301717281744398</weight>
+        <weight symbol="guanine">0.03495678047385393</weight>
+        <weight symbol="cytosine">0.0023677858063883843</weight>
+        <weight symbol="adenine">0.3325037055453179</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.028100869633203514</weight>
+        <weight symbol="guanine">0.7670650171976584</weight>
+        <weight symbol="cytosine">0.015568197699682925</weight>
+        <weight symbol="adenine">0.18926591546945548</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.9479043309641053</weight>
+        <weight symbol="guanine">2.989128335709659E-4</weight>
+        <weight symbol="cytosine">0.015238153740377952</weight>
+        <weight symbol="adenine">0.03655860246194598</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.6060936384928137</weight>
+        <weight symbol="guanine">0.02947792217459137</weight>
+        <weight symbol="cytosine">0.09906343073348053</weight>
+        <weight symbol="adenine">0.26536500859911405</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.9619837808125143</weight>
+        <weight symbol="guanine">0.03246340272362865</weight>
+        <weight symbol="cytosine">0.001352949509257588</weight>
+        <weight symbol="adenine">0.00419986695459932</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.25811744715722224</weight>
+        <weight symbol="guanine">0.16479939423801315</weight>
+        <weight symbol="cytosine">0.03772558474391051</weight>
+        <weight symbol="adenine">0.539357573860854</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.545600592883539</weight>
+        <weight symbol="guanine">0.021557247968811154</weight>
+        <weight symbol="cytosine">0.3840000931144063</weight>
+        <weight symbol="adenine">0.04884206603324335</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>br-Z1</name>
+    <weightmatrix alphabet="DNA" columns="9">
+      <column pos="0">
+        <weight symbol="thymine">0.9731022418480071</weight>
+        <weight symbol="guanine">0.01827927677526261</weight>
+        <weight symbol="cytosine">0.0021561860257173775</weight>
+        <weight symbol="adenine">0.006462295351013121</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.34912788529595246</weight>
+        <weight symbol="guanine">0.005133600422269598</weight>
+        <weight symbol="cytosine">0.004733149089708372</weight>
+        <weight symbol="adenine">0.6410053651920699</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.9735015421581059</weight>
+        <weight symbol="guanine">0.01900437865572809</weight>
+        <weight symbol="cytosine">0.0040639830629618685</weight>
+        <weight symbol="adenine">0.003430096123204051</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.6550581001643694</weight>
+        <weight symbol="guanine">0.32466618224254645</weight>
+        <weight symbol="cytosine">0.009551288023462775</weight>
+        <weight symbol="adenine">0.010724429569621247</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.22797285147201243</weight>
+        <weight symbol="guanine">0.30126489701031295</weight>
+        <weight symbol="cytosine">0.06850769162309672</weight>
+        <weight symbol="adenine">0.40225455989457787</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.5096009372035329</weight>
+        <weight symbol="guanine">0.01259182162284633</weight>
+        <weight symbol="cytosine">0.06644956714016528</weight>
+        <weight symbol="adenine">0.4113576740334554</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.5815854180489433</weight>
+        <weight symbol="guanine">0.04305969265296566</weight>
+        <weight symbol="cytosine">0.0656129970744276</weight>
+        <weight symbol="adenine">0.3097418922236637</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.3345128521384643</weight>
+        <weight symbol="guanine">0.07541626178524866</weight>
+        <weight symbol="cytosine">0.09123170714632677</weight>
+        <weight symbol="adenine">0.4988391789299603</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.8436257689034141</weight>
+        <weight symbol="guanine">0.14555461455676366</weight>
+        <weight symbol="cytosine">7.533535749461701E-4</weight>
+        <weight symbol="adenine">0.010066262964876135</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>Mad</name>
+    <weightmatrix alphabet="DNA" columns="11">
+      <column pos="0">
+        <weight symbol="thymine">0.043085044046989075</weight>
+        <weight symbol="guanine">0.054000258876036204</weight>
+        <weight symbol="cytosine">0.8938846565613738</weight>
+        <weight symbol="adenine">0.009030040515600796</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.569417902120492</weight>
+        <weight symbol="guanine">0.04399563101595613</weight>
+        <weight symbol="cytosine">0.3856572906454488</weight>
+        <weight symbol="adenine">9.291762181029705E-4</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.12243036663218057</weight>
+        <weight symbol="guanine">0.8718335496302422</weight>
+        <weight symbol="cytosine">0.0023846162080701006</weight>
+        <weight symbol="adenine">0.0033514675295076564</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.153018379406488</weight>
+        <weight symbol="guanine">0.5573528266358545</weight>
+        <weight symbol="cytosine">0.22408238789031298</weight>
+        <weight symbol="adenine">0.06554640606734452</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.12580456806657275</weight>
+        <weight symbol="guanine">0.04084031555369765</weight>
+        <weight symbol="cytosine">0.5361149400735477</weight>
+        <weight symbol="adenine">0.29724017630618166</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.025951363872010993</weight>
+        <weight symbol="guanine">0.9611963870268914</weight>
+        <weight symbol="cytosine">0.001210856917023175</weight>
+        <weight symbol="adenine">0.011641392184073963</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.4700784154733019</weight>
+        <weight symbol="guanine">0.18069641588744015</weight>
+        <weight symbol="cytosine">0.26404474148957435</weight>
+        <weight symbol="adenine">0.08518042714968362</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.08091564275881395</weight>
+        <weight symbol="guanine">0.13462403473225876</weight>
+        <weight symbol="cytosine">0.7052480475515503</weight>
+        <weight symbol="adenine">0.07921227495737707</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.15841293225971032</weight>
+        <weight symbol="guanine">0.6119291691665212</weight>
+        <weight symbol="cytosine">0.1921243871670563</weight>
+        <weight symbol="adenine">0.03753351140671214</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.004903515253710858</weight>
+        <weight symbol="guanine">0.009711909337356049</weight>
+        <weight symbol="cytosine">0.8811360335949997</weight>
+        <weight symbol="adenine">0.10424854181393348</weight>
+      </column>
+      <column pos="10">
+        <weight symbol="thymine">0.251960790123766</weight>
+        <weight symbol="guanine">0.6276189023325236</weight>
+        <weight symbol="cytosine">0.06130177289067213</weight>
+        <weight symbol="adenine">0.05911853465303827</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>br-Z2</name>
+    <weightmatrix alphabet="DNA" columns="7">
+      <column pos="0">
+        <weight symbol="thymine">0.7691811695201427</weight>
+        <weight symbol="guanine">0.003800451014820223</weight>
+        <weight symbol="cytosine">0.0012633496311287747</weight>
+        <weight symbol="adenine">0.2257550298339083</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.09360601151225917</weight>
+        <weight symbol="guanine">0.02481778709521775</weight>
+        <weight symbol="cytosine">0.01504235548665675</weight>
+        <weight symbol="adenine">0.8665338459058665</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.6881402649213053</weight>
+        <weight symbol="guanine">0.25173618067722686</weight>
+        <weight symbol="cytosine">0.035390744850762636</weight>
+        <weight symbol="adenine">0.024732809550704456</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.8068467974770951</weight>
+        <weight symbol="guanine">0.14322821822404608</weight>
+        <weight symbol="cytosine">0.008733337934400742</weight>
+        <weight symbol="adenine">0.04119164636445825</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.4332444077084904</weight>
+        <weight symbol="guanine">0.10501373376228951</weight>
+        <weight symbol="cytosine">0.019030886976163286</weight>
+        <weight symbol="adenine">0.4427109715530566</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.43655770191923976</weight>
+        <weight symbol="guanine">0.030771161432537327</weight>
+        <weight symbol="cytosine">0.026588101213086975</weight>
+        <weight symbol="adenine">0.5060830354351359</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.9840608207417327</weight>
+        <weight symbol="guanine">0.0029194934344207155</weight>
+        <weight symbol="cytosine">9.790309900223136E-4</weight>
+        <weight symbol="adenine">0.012040654833823957</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>eve</name>
+    <weightmatrix alphabet="DNA" columns="7">
+      <column pos="0">
+        <weight symbol="thymine">0.1524228049747789</weight>
+        <weight symbol="guanine">0.002202556476515202</weight>
+        <weight symbol="cytosine">0.3413721061080529</weight>
+        <weight symbol="adenine">0.5040025324406529</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.02975723523034116</weight>
+        <weight symbol="guanine">0.004865132477051432</weight>
+        <weight symbol="cytosine">0.10826119056582535</weight>
+        <weight symbol="adenine">0.857116441726782</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.027538862404710682</weight>
+        <weight symbol="guanine">0.00396174629468584</weight>
+        <weight symbol="cytosine">0.005374862730338275</weight>
+        <weight symbol="adenine">0.963124528570265</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.962959514135133</weight>
+        <weight symbol="guanine">0.004301240144658618</weight>
+        <weight symbol="cytosine">0.0037880464659837084</weight>
+        <weight symbol="adenine">0.028951199254224656</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.38290186845226554</weight>
+        <weight symbol="guanine">0.03803505715903577</weight>
+        <weight symbol="cytosine">0.25072899424091755</weight>
+        <weight symbol="adenine">0.32833408014778115</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.015676602962555686</weight>
+        <weight symbol="guanine">0.14692183877488144</weight>
+        <weight symbol="cytosine">0.007549682804500304</weight>
+        <weight symbol="adenine">0.8298518754580628</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.5179340029875562</weight>
+        <weight symbol="guanine">0.002517214452015031</weight>
+        <weight symbol="cytosine">0.02191692533211824</weight>
+        <weight symbol="adenine">0.4576318572283106</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>pan</name>
+    <weightmatrix alphabet="DNA" columns="7">
+      <column pos="0">
+        <weight symbol="thymine">0.04115247058034856</weight>
+        <weight symbol="guanine">0.03747706191273152</weight>
+        <weight symbol="cytosine">0.29518486215353856</weight>
+        <weight symbol="adenine">0.6261856053533814</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.015842049413607468</weight>
+        <weight symbol="guanine">0.0027467546676502655</weight>
+        <weight symbol="cytosine">0.03007495988941107</weight>
+        <weight symbol="adenine">0.951336236029331</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">2.3102513609562177E-4</weight>
+        <weight symbol="guanine">0.0031571016012190626</weight>
+        <weight symbol="cytosine">0.025453860202519843</weight>
+        <weight symbol="adenine">0.9711580130601651</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.03692674148228243</weight>
+        <weight symbol="guanine">0.02425989841074553</weight>
+        <weight symbol="cytosine">0.04930940448938763</weight>
+        <weight symbol="adenine">0.8895039556175843</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.07222072039244914</weight>
+        <weight symbol="guanine">0.03136516575916598</weight>
+        <weight symbol="cytosine">0.22925375277345658</weight>
+        <weight symbol="adenine">0.667160361074928</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.3371483034497852</weight>
+        <weight symbol="guanine">0.23162171108581747</weight>
+        <weight symbol="cytosine">0.42380907516620775</weight>
+        <weight symbol="adenine">0.007420910298189637</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.003692739436483002</weight>
+        <weight symbol="guanine">4.282505514156952E-4</weight>
+        <weight symbol="cytosine">0.0012533718687206027</weight>
+        <weight symbol="adenine">0.9946256381433808</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>kni</name>
+    <weightmatrix alphabet="DNA" columns="6">
+      <column pos="0">
+        <weight symbol="thymine">0.0053792133231825015</weight>
+        <weight symbol="guanine">0.00261050905208039</weight>
+        <weight symbol="cytosine">0.7040238989870363</weight>
+        <weight symbol="adenine">0.28798637863770077</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.13694748573032797</weight>
+        <weight symbol="guanine">0.1614979220688186</weight>
+        <weight symbol="cytosine">0.03301176277320985</weight>
+        <weight symbol="adenine">0.6685428294276435</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.36933565373856647</weight>
+        <weight symbol="guanine">0.038235986398298845</weight>
+        <weight symbol="cytosine">5.279123221018623E-4</weight>
+        <weight symbol="adenine">0.5919004475410332</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">9.899043026540664E-5</weight>
+        <weight symbol="guanine">8.574871165915368E-4</weight>
+        <weight symbol="cytosine">9.517041269403345E-5</weight>
+        <weight symbol="adenine">0.998948352040449</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.008786736608003665</weight>
+        <weight symbol="guanine">0.018135887814826217</weight>
+        <weight symbol="cytosine">5.370854384558666E-4</weight>
+        <weight symbol="adenine">0.9725402901387141</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.035542951096562116</weight>
+        <weight symbol="guanine">0.004132792287553794</weight>
+        <weight symbol="cytosine">0.006008940798996487</weight>
+        <weight symbol="adenine">0.9543153158168881</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>tll</name>
+    <weightmatrix alphabet="DNA" columns="10">
+      <column pos="0">
+        <weight symbol="thymine">0.12114005435307984</weight>
+        <weight symbol="guanine">0.008639955459616069</weight>
+        <weight symbol="cytosine">0.17192187277657367</weight>
+        <weight symbol="adenine">0.6982981174107301</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.10853690380351236</weight>
+        <weight symbol="guanine">0.0382813522306014</weight>
+        <weight symbol="cytosine">0.0758967901245717</weight>
+        <weight symbol="adenine">0.7772849538413146</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.020322085113731556</weight>
+        <weight symbol="guanine">0.11815070627153658</weight>
+        <weight symbol="cytosine">0.00825597350600595</weight>
+        <weight symbol="adenine">0.8532712351087258</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.014968573785819315</weight>
+        <weight symbol="guanine">0.3508574291492169</weight>
+        <weight symbol="cytosine">0.005474609042787964</weight>
+        <weight symbol="adenine">0.6286993880221755</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.09834359480930682</weight>
+        <weight symbol="guanine">0.19554224633491618</weight>
+        <weight symbol="cytosine">0.011501526196157352</weight>
+        <weight symbol="adenine">0.6946126326596196</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.103119140480056</weight>
+        <weight symbol="guanine">0.8428809375789024</weight>
+        <weight symbol="cytosine">0.0015856024651607302</weight>
+        <weight symbol="adenine">0.05241431947588096</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.7068595876657648</weight>
+        <weight symbol="guanine">0.02008805245974714</weight>
+        <weight symbol="cytosine">0.005749989298099974</weight>
+        <weight symbol="adenine">0.26730237057638784</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.395726988063275</weight>
+        <weight symbol="guanine">0.0021198793978188762</weight>
+        <weight symbol="cytosine">0.3923198497969398</weight>
+        <weight symbol="adenine">0.2098332827419661</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.0020804821246082567</weight>
+        <weight symbol="guanine">0.05286851994262716</weight>
+        <weight symbol="cytosine">0.06071965202299954</weight>
+        <weight symbol="adenine">0.8843313459097654</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.116911212163063</weight>
+        <weight symbol="guanine">0.12634080224658045</weight>
+        <weight symbol="cytosine">0.025092264690365434</weight>
+        <weight symbol="adenine">0.7316557208999911</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>dl</name>
+    <weightmatrix alphabet="DNA" columns="10">
+      <column pos="0">
+        <weight symbol="thymine">0.4285387939489955</weight>
+        <weight symbol="guanine">0.12952713219374856</weight>
+        <weight symbol="cytosine">0.3616512265312789</weight>
+        <weight symbol="adenine">0.08028284732597687</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.0671055526565257</weight>
+        <weight symbol="guanine">0.8415044879856164</weight>
+        <weight symbol="cytosine">0.07835308409954417</weight>
+        <weight symbol="adenine">0.013036875258314018</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.31323302688745114</weight>
+        <weight symbol="guanine">0.5488445412239454</weight>
+        <weight symbol="cytosine">0.05778226814547341</weight>
+        <weight symbol="adenine">0.08014016374312974</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.00139508563995873</weight>
+        <weight symbol="guanine">0.20346407854193962</weight>
+        <weight symbol="cytosine">0.05057613988122179</weight>
+        <weight symbol="adenine">0.74456469593688</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.5533702487772258</weight>
+        <weight symbol="guanine">0.009626341076313504</weight>
+        <weight symbol="cytosine">0.10052126342166352</weight>
+        <weight symbol="adenine">0.33648214672479776</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.9950741877515946</weight>
+        <weight symbol="guanine">1.3398016665641747E-4</weight>
+        <weight symbol="cytosine">9.775193212380625E-4</weight>
+        <weight symbol="adenine">0.0038143127605113816</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.9991099356149578</weight>
+        <weight symbol="guanine">5.918033916112419E-4</weight>
+        <weight symbol="cytosine">7.42155627719543E-5</weight>
+        <weight symbol="adenine">2.2404543065902109E-4</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.8107743312614335</weight>
+        <weight symbol="guanine">0.005260130365279087</weight>
+        <weight symbol="cytosine">0.18344405709185196</weight>
+        <weight symbol="adenine">5.214812814352539E-4</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.26653671002997464</weight>
+        <weight symbol="guanine">0.054845022760112154</weight>
+        <weight symbol="cytosine">0.6776801612157758</weight>
+        <weight symbol="adenine">9.381059941371466E-4</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.1941849082927773</weight>
+        <weight symbol="guanine">0.09929342152446431</weight>
+        <weight symbol="cytosine">0.6755672775769951</weight>
+        <weight symbol="adenine">0.030954392605763215</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>z</name>
+    <weightmatrix alphabet="DNA" columns="6">
+      <column pos="0">
+        <weight symbol="thymine">0.6196804478871935</weight>
+        <weight symbol="guanine">0.020140984671766025</weight>
+        <weight symbol="cytosine">0.17468543643136095</weight>
+        <weight symbol="adenine">0.18549313100967968</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.007643429666976464</weight>
+        <weight symbol="guanine">0.9849671481963709</weight>
+        <weight symbol="cytosine">0.004517259182522814</weight>
+        <weight symbol="adenine">0.0028721629541301635</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.035811981380240915</weight>
+        <weight symbol="guanine">0.005623537684414254</weight>
+        <weight symbol="cytosine">0.005094478152500389</weight>
+        <weight symbol="adenine">0.9534700027828448</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">6.85835082901478E-5</weight>
+        <weight symbol="guanine">0.9771035609976956</weight>
+        <weight symbol="cytosine">6.787739782338726E-4</weight>
+        <weight symbol="adenine">0.02214908151578048</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.6131758805757241</weight>
+        <weight symbol="guanine">2.3957539453286908E-4</weight>
+        <weight symbol="cytosine">0.23190113616326335</weight>
+        <weight symbol="adenine">0.15468340786647936</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.02184257029492015</weight>
+        <weight symbol="guanine">0.8400041245169184</weight>
+        <weight symbol="cytosine">0.12330548911486122</weight>
+        <weight symbol="adenine">0.014847816073300834</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>abd-A (?multimodal)</name>
+    <weightmatrix alphabet="DNA" columns="6">
+      <column pos="0">
+        <weight symbol="thymine">0.24443953207479277</weight>
+        <weight symbol="guanine">0.015439377043664848</weight>
+        <weight symbol="cytosine">0.0035549922532542447</weight>
+        <weight symbol="adenine">0.736566098628288</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.5659321400593171</weight>
+        <weight symbol="guanine">0.060629392006342285</weight>
+        <weight symbol="cytosine">7.78742263401557E-4</weight>
+        <weight symbol="adenine">0.37265972567093936</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.933833026230269</weight>
+        <weight symbol="guanine">0.00788373788522231</weight>
+        <weight symbol="cytosine">0.004591505025565934</weight>
+        <weight symbol="adenine">0.05369173085894317</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.9719659515884189</weight>
+        <weight symbol="guanine">0.021742980481536656</weight>
+        <weight symbol="cytosine">0.0021482280636724842</weight>
+        <weight symbol="adenine">0.0041428398663719375</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.21180931956191426</weight>
+        <weight symbol="guanine">0.009588762772908562</weight>
+        <weight symbol="cytosine">0.006058859857433315</weight>
+        <weight symbol="adenine">0.7725430578077438</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.829337032092507</weight>
+        <weight symbol="guanine">0.014169981021918436</weight>
+        <weight symbol="cytosine">0.022031837145027613</weight>
+        <weight symbol="adenine">0.13446114974054682</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>Kr</name>
+    <weightmatrix alphabet="DNA" columns="10">
+      <column pos="0">
+        <weight symbol="thymine">0.5707073757454794</weight>
+        <weight symbol="guanine">0.03238682373170853</weight>
+        <weight symbol="cytosine">0.24420267232231135</weight>
+        <weight symbol="adenine">0.15270312820050075</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.05080108546303911</weight>
+        <weight symbol="guanine">0.08220076952015133</weight>
+        <weight symbol="cytosine">0.16204865984465397</weight>
+        <weight symbol="adenine">0.7049494851721554</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.0024373483198899507</weight>
+        <weight symbol="guanine">0.0035203767253223395</weight>
+        <weight symbol="cytosine">0.0619358534127634</weight>
+        <weight symbol="adenine">0.9321064215420246</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.20098283810228726</weight>
+        <weight symbol="guanine">0.04754640930510199</weight>
+        <weight symbol="cytosine">0.7493082456329118</weight>
+        <weight symbol="adenine">0.0021625069596991463</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.1756912720195039</weight>
+        <weight symbol="guanine">0.001425045059763376</weight>
+        <weight symbol="cytosine">0.8197758482679985</weight>
+        <weight symbol="adenine">0.0031078346527337567</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.004236172342626752</weight>
+        <weight symbol="guanine">1.1197881624120503E-6</weight>
+        <weight symbol="cytosine">0.9955455196586418</weight>
+        <weight symbol="adenine">2.171882105690847E-4</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.703612888224764</weight>
+        <weight symbol="guanine">0.16733369035169424</weight>
+        <weight symbol="cytosine">0.095090648030164</weight>
+        <weight symbol="adenine">0.03396277339337769</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.916535417773103</weight>
+        <weight symbol="guanine">0.07290401292966935</weight>
+        <weight symbol="cytosine">0.0028293781113443045</weight>
+        <weight symbol="adenine">0.007731191185883727</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.9944662696935539</weight>
+        <weight symbol="guanine">0.003193214354701999</weight>
+        <weight symbol="cytosine">0.001635384550204251</weight>
+        <weight symbol="adenine">7.051314015397115E-4</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.5650404785784193</weight>
+        <weight symbol="guanine">0.160871976116035</weight>
+        <weight symbol="cytosine">0.2614694447973856</weight>
+        <weight symbol="adenine">0.012618100508160647</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>en</name>
+    <weightmatrix alphabet="DNA" columns="7">
+      <column pos="0">
+        <weight symbol="thymine">0.002747884056831603</weight>
+        <weight symbol="guanine">0.003939317643648021</weight>
+        <weight symbol="cytosine">0.00647475813128381</weight>
+        <weight symbol="adenine">0.9868380401682358</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.09800140043997711</weight>
+        <weight symbol="guanine">0.00341451809594912</weight>
+        <weight symbol="cytosine">0.005336579175238725</weight>
+        <weight symbol="adenine">0.8932475022888348</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.9461542584896684</weight>
+        <weight symbol="guanine">0.02034639336422373</weight>
+        <weight symbol="cytosine">0.004701714662586826</weight>
+        <weight symbol="adenine">0.028797633483520796</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.524243590918071</weight>
+        <weight symbol="guanine">0.12223633181810055</weight>
+        <weight symbol="cytosine">0.08083883260546691</weight>
+        <weight symbol="adenine">0.2726812446583617</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.12372395328671769</weight>
+        <weight symbol="guanine">0.03648203936436112</weight>
+        <weight symbol="cytosine">0.021328225633753858</weight>
+        <weight symbol="adenine">0.8184657817151674</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.2563061338630846</weight>
+        <weight symbol="guanine">0.15273155563488222</weight>
+        <weight symbol="cytosine">0.04591135998590862</weight>
+        <weight symbol="adenine">0.5450509505161247</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.36721002449373563</weight>
+        <weight symbol="guanine">0.008704377837643338</weight>
+        <weight symbol="cytosine">0.19041492154166323</weight>
+        <weight symbol="adenine">0.43367067612695803</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>Ubx</name>
+    <weightmatrix alphabet="DNA" columns="12">
+      <column pos="0">
+        <weight symbol="thymine">0.3306206935325137</weight>
+        <weight symbol="guanine">0.0078060314669326876</weight>
+        <weight symbol="cytosine">0.07475902653321985</weight>
+        <weight symbol="adenine">0.5868142484673343</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.15318651036331896</weight>
+        <weight symbol="guanine">3.1236434951101283E-4</weight>
+        <weight symbol="cytosine">0.003224026480658167</weight>
+        <weight symbol="adenine">0.843277098806512</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.7819866856164606</weight>
+        <weight symbol="guanine">8.869811706567296E-4</weight>
+        <weight symbol="cytosine">0.022663534762116955</weight>
+        <weight symbol="adenine">0.19446279845076558</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.7917929473197506</weight>
+        <weight symbol="guanine">0.13886527349085223</weight>
+        <weight symbol="cytosine">0.0034656055235189414</weight>
+        <weight symbol="adenine">0.06587617366587875</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.37858623326146884</weight>
+        <weight symbol="guanine">0.06337979908145361</weight>
+        <weight symbol="cytosine">0.019774337870799914</weight>
+        <weight symbol="adenine">0.5382596297862776</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.6554569901236762</weight>
+        <weight symbol="guanine">0.10849442555701017</weight>
+        <weight symbol="cytosine">0.14431314827937208</weight>
+        <weight symbol="adenine">0.09173543603994344</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.611047130183965</weight>
+        <weight symbol="guanine">0.21331727727480362</weight>
+        <weight symbol="cytosine">0.09832142811718722</weight>
+        <weight symbol="adenine">0.07731416442404397</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.13320121738904697</weight>
+        <weight symbol="guanine">0.15297686736698465</weight>
+        <weight symbol="cytosine">0.005576442154479103</weight>
+        <weight symbol="adenine">0.7082454730894895</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.8708955023426963</weight>
+        <weight symbol="guanine">1.4236372671074465E-4</weight>
+        <weight symbol="cytosine">0.050184672328231865</weight>
+        <weight symbol="adenine">0.07877746160236143</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.6888985610207182</weight>
+        <weight symbol="guanine">0.1003602348681252</weight>
+        <weight symbol="cytosine">0.010987078470114112</weight>
+        <weight symbol="adenine">0.19975412564104253</weight>
+      </column>
+      <column pos="10">
+        <weight symbol="thymine">0.5583641625218212</weight>
+        <weight symbol="guanine">0.005772572575636271</weight>
+        <weight symbol="cytosine">0.007932275869445966</weight>
+        <weight symbol="adenine">0.4279309890330963</weight>
+      </column>
+      <column pos="11">
+        <weight symbol="thymine">0.41063204491722827</weight>
+        <weight symbol="guanine">0.0132039548304994</weight>
+        <weight symbol="cytosine">0.1515948220398723</weight>
+        <weight symbol="adenine">0.4245691782124004</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>Trl</name>
+    <weightmatrix alphabet="DNA" columns="12">
+      <column pos="0">
+        <weight symbol="thymine">0.019902526025205952</weight>
+        <weight symbol="guanine">0.5512864657880345</weight>
+        <weight symbol="cytosine">0.08616801652260951</weight>
+        <weight symbol="adenine">0.3426429916641499</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.00283308475204875</weight>
+        <weight symbol="guanine">0.021842433562361714</weight>
+        <weight symbol="cytosine">0.19786268841472748</weight>
+        <weight symbol="adenine">0.7774617932708623</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">4.8659288265500463E-4</weight>
+        <weight symbol="guanine">0.8264090649856629</weight>
+        <weight symbol="cytosine">5.869475129103054E-4</weight>
+        <weight symbol="adenine">0.1725173946187718</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.1608141915253052</weight>
+        <weight symbol="guanine">0.07145530787933094</weight>
+        <weight symbol="cytosine">0.21472169061130988</weight>
+        <weight symbol="adenine">0.553008809984054</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.16448627234003052</weight>
+        <weight symbol="guanine">0.6118107964078144</weight>
+        <weight symbol="cytosine">0.10243688017016786</weight>
+        <weight symbol="adenine">0.12126605108198818</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.00860851230859466</weight>
+        <weight symbol="guanine">0.1844003986491782</weight>
+        <weight symbol="cytosine">0.16641165265971597</weight>
+        <weight symbol="adenine">0.6405794363825109</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.0023265755514048103</weight>
+        <weight symbol="guanine">0.7442621110650646</weight>
+        <weight symbol="cytosine">0.04900791069613948</weight>
+        <weight symbol="adenine">0.20440340268739096</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">0.09075432982866719</weight>
+        <weight symbol="guanine">0.0012984312124716233</weight>
+        <weight symbol="cytosine">0.1610802224724947</weight>
+        <weight symbol="adenine">0.7468670164863669</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.014529997269203116</weight>
+        <weight symbol="guanine">0.825759177660764</weight>
+        <weight symbol="cytosine">8.848439090654322E-4</weight>
+        <weight symbol="adenine">0.15882598116096763</weight>
+      </column>
+      <column pos="9">
+        <weight symbol="thymine">0.025018714422446114</weight>
+        <weight symbol="guanine">0.043460721251606695</weight>
+        <weight symbol="cytosine">0.3219145599323586</weight>
+        <weight symbol="adenine">0.6096060043935877</weight>
+      </column>
+      <column pos="10">
+        <weight symbol="thymine">0.012699399365838521</weight>
+        <weight symbol="guanine">0.7481736028433832</weight>
+        <weight symbol="cytosine">0.00857867702834941</weight>
+        <weight symbol="adenine">0.23054832076242868</weight>
+      </column>
+      <column pos="11">
+        <weight symbol="thymine">0.10647751789731942</weight>
+        <weight symbol="guanine">0.05574757775451334</weight>
+        <weight symbol="cytosine">0.4323151233022686</weight>
+        <weight symbol="adenine">0.4054597810458986</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+  <motif>
+    <name>hb</name>
+    <weightmatrix alphabet="DNA" columns="9">
+      <column pos="0">
+        <weight symbol="thymine">0.07393879183738115</weight>
+        <weight symbol="guanine">0.14122161727083704</weight>
+        <weight symbol="cytosine">0.48257366508088995</weight>
+        <weight symbol="adenine">0.30226592581089096</weight>
+      </column>
+      <column pos="1">
+        <weight symbol="thymine">0.2080250644305834</weight>
+        <weight symbol="guanine">0.2082824509812461</weight>
+        <weight symbol="cytosine">0.10301479896234936</weight>
+        <weight symbol="adenine">0.4806776856258213</weight>
+      </column>
+      <column pos="2">
+        <weight symbol="thymine">0.492507498388972</weight>
+        <weight symbol="guanine">0.06555623114006646</weight>
+        <weight symbol="cytosine">0.24171437081053437</weight>
+        <weight symbol="adenine">0.20022189966042742</weight>
+      </column>
+      <column pos="3">
+        <weight symbol="thymine">0.001803098451996721</weight>
+        <weight symbol="guanine">0.0012116030180210468</weight>
+        <weight symbol="cytosine">7.958227690958973E-5</weight>
+        <weight symbol="adenine">0.9969057162530724</weight>
+      </column>
+      <column pos="4">
+        <weight symbol="thymine">0.004516736900084879</weight>
+        <weight symbol="guanine">0.002987780913062636</weight>
+        <weight symbol="cytosine">0.0010387106769461094</weight>
+        <weight symbol="adenine">0.9914567715099066</weight>
+      </column>
+      <column pos="5">
+        <weight symbol="thymine">0.05903032245353067</weight>
+        <weight symbol="guanine">0.005657897153455403</weight>
+        <weight symbol="cytosine">0.0025247920313422683</weight>
+        <weight symbol="adenine">0.9327869883616717</weight>
+      </column>
+      <column pos="6">
+        <weight symbol="thymine">0.0012211692986528833</weight>
+        <weight symbol="guanine">0.07813916350308359</weight>
+        <weight symbol="cytosine">0.013992542051182928</weight>
+        <weight symbol="adenine">0.9066471251470807</weight>
+      </column>
+      <column pos="7">
+        <weight symbol="thymine">1.8645449135291464E-6</weight>
+        <weight symbol="guanine">5.338264259716912E-4</weight>
+        <weight symbol="cytosine">8.153097337121459E-4</weight>
+        <weight symbol="adenine">0.9986489992954032</weight>
+      </column>
+      <column pos="8">
+        <weight symbol="thymine">0.18808413323129464</weight>
+        <weight symbol="guanine">0.10994635498854853</weight>
+        <weight symbol="cytosine">0.12311909812101278</weight>
+        <weight symbol="adenine">0.5788504136591444</weight>
+      </column>
+    </weightmatrix>
+    <threshold>0.0</threshold>
+  </motif>
+</motifset>

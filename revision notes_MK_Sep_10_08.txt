@@ -1,0 +1,38 @@
+Oct 2nd revision 2
+Things to do:
+1. the calculation Marty comes up with
+2. refocus the discussion part
+3. use Pollard's PWM to predict
+4. expected prob of inc-dec
+5. expected number of with-in site prediction
+6. finish the references
+7. overhaul the whole document.  get this done by Sunday.
+
+adv: 
+discussion, quality, use Pollard's matrices.  
+choice of cutoff: in consideration of the noise, investigate the impact of choosing the impact
+(the asymmetry as a function of the 
+how much the asymmetry is dependent on the quality of the pwm and the cutoffs
+give more explanation for the figures
+the problem of reapplying the pwm 
+percentage of agreement between selex and optimal matrix
+fig 2 might go into discussion
+to understand the evolution of enhancers, need models for transcription.
+
+11th committee meeting.
+3. present the 
+Discussion
+*1. explain how I estimate the effects
+*2. choice of the cutoff--rationale and the impact of the choice of the cutoff
+3. information content figure, give legend
+4. re-read the whole thing and correct the expressions and wordings
+5. Compensation--what's the rate of turnover, is it normal or what, is the compensation complete?
+we did find sim-specific sites and observe the oposite pattern in them.  flanking sites.
+try to combine the information of how many sites are subject to turnover into the asymmetry table
+6. possibility of co-evolution
+7. matrix biases.
+Discussion 
+1. how much the asymmetry depend on the quality of the PWM
+use another set of PWM
+4. SELEX matrices verification
+5. the meaning of having 30 factors in the dataset.

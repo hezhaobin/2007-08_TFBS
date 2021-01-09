@@ -1,0 +1,22 @@
+#header, #searchbar, #save, #options, .next, #banner, #toc, .toc, .toplink, #form, #cart, .action, .hide, .close, #feedback, .noprint
+{
+	display: none ! important;
+}
+div.section
+{
+	page-break-inside:avoid;
+}
+
+span.history, td.tools, th.tools
+{
+	display: none;
+	visibility: hidden;
+}
+div.section#footer
+{
+	@bottom-center
+}
+
+table.sequence td.feature{
+	border: 1pt solid #000000;
+} 

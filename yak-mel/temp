@@ -1,0 +1,11 @@
+--17:15:35--  http://pipeline.lbl.gov/cgi-bin/gp_align?run=87&base=dm2&pos=chr3R:2687125-2689005&org=43
+           => `CE1204.fa'
+Resolving pipeline.lbl.gov... 131.243.56.235
+Connecting to pipeline.lbl.gov|131.243.56.235|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+
+    0K ....                                                    704.31 KB/s
+
+17:15:36 (704.31 KB/s) - `CE1204.fa' saved [4460]
+

@@ -1,0 +1,1 @@
+patser-v3b -A a:t 0.297 c:g 0.203 -c -p -m bcd -f bcdTest.txt

@@ -1,0 +1,11 @@
+5967	3L	Trl	17584615	17584626	4.94	-	.	Factor=Trl;Target=Eip74EF;Region=CE1000
+5968	3L	z	17584618	17584623	6.62	-	.	Factor=z;Target=Eip74EF;Region=CE1000
+5969	3L	Trl	17584657	17584668	4.98	+	.	Factor=Trl;Target=Eip74EF;Region=CE1000
+5970	3L	z	17584669	17584674	6.62	-	.	Factor=z;Target=Eip74EF;Region=CE1000
+5971	3L	Trl	17584676	17584687	5.89	-	.	Factor=Trl;Target=Eip74EF;Region=CE1000
+5972	3L	Trl	17584712	17584723	8.40	+	.	Factor=Trl;Target=Eip74EF;Region=CE1000
+5973	3L	Trl	17584728	17584739	5.94	+	.	Factor=Trl;Target=Eip74EF;Region=CE1000
+5974	3L	Trl	17584760	17584771	7.76	+	.	Factor=Trl;Target=Eip74EF;Region=CE1000
+3610	3L	kni	8640813	8640818	4.95	-	.	Factor=kni;Target=h;Region=CE1004
+3611	3L	hb	8640813	8640821	7.89	-	.	Factor=hb;Target=h;Region=CE1004
+3612	3L	Kr	8640827	8640836	7.56	-	.	Factor=Kr;Target=h;Region=CE1004

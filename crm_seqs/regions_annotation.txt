@@ -1,0 +1,160 @@
+ name   	 symbol                          	chromosome	start	end	stage	# footprints	Factors
+ CE1000 	 E74 Promoter                    	chr3L	17584383	17585054		8	z Trl Trl z Trl Trl Trl Trl
+ CE1004 	 h stripe 6                      	chr3L	8640795	8641343	a-p	25	kni hb Kr kni hb bcd Kr kni Kr tll Kr hb hb Kr Kr bcd hb Kr hb tll bcd hb hb Kr kni
+ CE1006 	 Fbp1 enhancer                   	chr3L	14063388	14063461		2	srp srp
+ CE1007 	 DNA IIA237 enhancer             	chr2R	5447092	5447330		2	tin tin
+ CE1008 	 475bp sev enhancer              	chrX	10924641	10925118	disk	6	Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified
+ CE1010 	 dpp 812bp BE/VM enhancer        	chr2L	2445768	2446580	mes	30	bin bin Ubx abd-A abd-A Ubx Ubx Ubx abd-A Ubx exd Ubx exd Ubx abd-A Ubx bin abd-A Ubx exd abd-A Ubx exd Ubx abd-A abd-A Ubx abd-A Ubx exd
+ CE1012 	 h7 element                      	chr3L	8639023	8639956	a-p	41	hb kni hb kni hb kni hb tll bcd kni kni hb hb tll kni bcd Kr tll bcd kni bcd bcd Kr kni Kr kni Kr tll kni kni bcd hb bcd hb tll Kr kni kni hb hb kni
+ CE1013 	 Stripe 3+7 enhancer             	chr2R	5487312	5487824	a-p	16	kni hb hb kni hb kni hb hb kni hb hb kni hb hb hb hb
+ CE1014 	 1.4kb posterior enhancer region 	chr3R	4526528	4527944	a-p	9	tll tll tll tll tll tll tll tll tll
+ CE1016 	 2.7kb Dfd EAE                   	chr3R	2611055	2613713	a-p	15	Dfd Dfd Dfd Dfd exd Dfd Deaf1 Dfd Dfd Dfd Dfd Deaf1 Dfd Dfd Dfd
+ CE1018 	 NK-1 promoter                   	chr3R	17382901	17383486		2	Unspecified Unspecified
+ CE1019 	 dpp proximal promoter           	chr2L	2454605	2454756		4	Unspecified Adf1 Unspecified Trl
+ CE1020 	 DNApol-alpha180_promoter        	chr3R	17497407	17497685		4	Dref Dref zen Dref
+ CE1021 	 eve promoter                    	chr2R	5490725	5491230	a-p	18	Unspecified Unspecified Unspecified Unspecified ttk Unspecified ttk prd eve Unspecified Unspecified eve prd Unspecified Unspecified Unspecified Unspecified Unspecified
+ CE1022 	 tin B enhancer                  	chr3R	17205669	17206042	mes	3	twi eve twi
+ CE1023 	 1.28 DRE                        	chr2R	2013540	2014192	a-p	12	Deaf1 Deaf1 Deaf1 Deaf1 Deaf1 Deaf1 Deaf1 Deaf1 Dfd Dfd Dfd Dfd
+ CE1025 	 twist ventral activator         	chr2R	18553274	18553936	d-v	14	Unspecified Unspecified Unspecified dl Unspecified dl Unspecified dl Unspecified dl Unspecified Unspecified Unspecified Unspecified
+ CE1026 	 ChAT 0.3kb 5' region            	chr3R	14530829	14531165		2	Unspecified Unspecified
+ CE1027 	 eve MAS                         	chr2R	5485688	5485890	a-p	6	eve Unspecified eve Unspecified ttk Unspecified
+ CE1028 	 ems enhancer element IV         	chr3R	9720483	9720788		4	bcd bcd tll tll
+ CE1029 	 iab-2(1.7) enhancer             	chr3R	12636228	12637974	a-p	11	Kr hb hb hb eve hb eve gt eve eve hb
+ CE1030 	 sal enhancer                    	chr2L	11455638	11456155	a-p	18	Kr bcd cad cad cad bcd bcd bcd Kr bcd hkb bcd cad Kr Kr bcd hb hkb
+ CE1031 	 en promoter                     	chr2R	7043574	7044213		8	Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified
+ CE1032 	 tin 5' region                   	chr3R	17203781	17205010		1	twi
+ CE1033 	 Kr730 element                   	chr2R	20730217	20730937	a-p	19	tll hb hb bcd tll hb tll bcd tll bcd tll hb hb tll hb kni bcd tll gt
+ CE1034 	 Ubx BRE enhancer                	chr3R	12526644	12527144	a-p	17	hb twi en ftz hb tll twi ftz tll twi en hb ftz twi ftz hb tll
+ CE1035 	 knirps 5' regulatory region     	chr3L	20630363	20631481	a-p	39	Kr hb tll tll hb Kr tll hb Kr tll Kr Kr tll tll tll hb gt hb gt hb hb hb hb bcd His2B His2B His2B His2B cad bcd His2B cad hb cad cad cad cad hb cad
+ CE1036 	 eve mesodermal enhancer         	chr2R	5496861	5497749	mes	17	pan Med Med Med pan pan tin pan tin Med tin Med zfh1 pan tin pan pan
+ CE1037 	 SRF-A intervein "c" enhancer    	chr2R	19849843	19849969	disk	1	sd
+ CE1038 	 omb wing enhancer               	chrX	4231703	4233191	disk	1	brk
+ CE1039 	 btl 5'                          	chr3L	14042174	14044600		16	slbo slbo slbo vvl vvl vvl vvl vvl vvl vvl slbo vvl slbo slbo slbo slbo
+ CE1041 	 dpp promoter                    	chr2L	2452152	2452471		1	Ubx
+ CE1042 	 Antp P1 promoter                	chr3R	2830803	2831280	a-p	3	Ubx Antp Antp
+ CE1047 	 E2f promoter                    	chr3R	17458890	17459274		5	Unspecified Dref Dref Unspecified Unspecified
+ CE1048 	 tud promoter                    	chr2R	16690690	16691112		1	Trf
+ CE1049 	 Antp P2 promoter                	chr3R	2758361	2760662	a-p	64	Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Ubx Unspecified Unspecified Ubx abd-A Ubx abd-A Ubx abd-A abd-A Ubx Ubx abd-A ftz abd-A Ubx Ubx abd-A abd-A Ubx Ubx abd-A abd-A Ubx Ubx abd-A Ubx abd-A Ubx abd-A abd-A Ubx Ubx abd-A Ubx abd-A abd-A Ubx Ubx abd-A abd-A Ubx Ubx abd-A abd-A Ubx Ubx abd-A abd-A Ubx Ubx abd-A abd-A Ubx Ubx abd-A Ubx abd-A
+ CE1050 	 gsb_early_enhancer              	chr2R	20563925	20564959	a-p	19	gsb gsb-n prd gsb prd gsb-n prd prd prd eve ftz ftz eve prd prd eve ftz prd prd
+ CE1051 	 slbo  P2                        	chr2R	19841682	19841862		1	slbo
+ CE1054 	 otp regulatory region           	chr2R	16406095	16407907	mes	9	byn byn byn byn byn byn byn byn byn
+ CE1055 	 slp1                            	chr2L	3823118	3824696	mes	9	pan pan pan pan pan pan pan pan pan
+ CE1056 	 eve stripe 2                    	chr2R	5489523	5490195	a-p	24	Kr Kr Kr bcd Kr gt bcd gt Kr Kr Kr bcd Kr Kr bcd Kr gt hb bcd Kr Kr hb Kr hb
+ CE1057 	 alpha1 tubulin                  	chr3R	2912163	2913017		14	Trl Unspecified Trl Unspecified Unspecified Trl Unspecified Unspecified Unspecified Unspecified Trl Trl Unspecified Trl
+ CE1058 	 Ubx promoter                    	chr3R	12559789	12560360	a-p	20	Ubx zen eve Unspecified zen Unspecified eve Ubx Unspecified Trl z z Trl z Unspecified grh z Trl z Trl
+ CE1059 	 KrMT element                    	chr2R	20719278	20719701		1	fkh
+ CE1061 	 Race 533bp enhancer             	chr2L	13904731	13905265		3	zen zen zen
+ CE1062 	 dorsal vessel enhancer          	chr2R	19811754	19812076	mes	2	tin tin
+ CE1063 	 Kr proximal promoter            	chr2R	20734062	20734383	a-p	9	Trl Trl Trl Trl Unspecified Unspecified Trl Trl Trl
+ CE1064 	 Trl promoter                    	chr3L	14722407	14723845		27	Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl Trl
+ CE1065 	 apME680 enhancer                	chr2R	1216942	1217623	mes	5	Antp Antp Antp Antp Antp
+ CE1066 	 1.4dis                          	chr4	79475	80873		2	en en
+ CE1067 	 so10 enhancer                   	chr2R	2942898	2943326		8	toy ey ey toy toy toy ey toy
+ CE1068 	 Ubx PRE                         	chr3R	12589355	12590918	a-p?	50	z Trl hb Trl hb Trl Trl z hb Trl z Trl z pho Trl z Trl pho Trl z Trl hb z pho pho Trl hb pho z z hb hb z Trl z hb z hb hb hb hb z hb hb z Trl z hb hb hb
+ CE1069 	 tin D                           	chr3R	17209338	17209690	mes	12	tin Med Mad Med Mad Mad Mad Med tin Mad Mad Mad
+ CE1073 	 B3-15 vm1 enhancer              	chr2R	19816618	19816978	mes	6	Ubx Ubx bin bin bap tin
+ CE1074 	 tll CD1                         	chr3R	26676774	26677274	a-p	8	bcd bcd bcd bcd bcd bcd bcd bcd
+ CE1075 	 ftz-f1 promoter                 	chr3L	18730461	18731067		3	Hr46 Hr46 Hr46
+ CE1076 	 zen promoter                    	chr3R	2579902	2581525	d-v	25	Mad Mad Mad brk brk Mad brk Mad brk Mad Mad Mad Mad brk dl Unspecified dl Unspecified Unspecified dl Unspecified grh Unspecified brk Mad
+ CE1077 	 rho NEE                         	chr3L	1445322	1445647	d-v	10	dl sna sna sna dl twi twi sna dl dl
+ CE1078 	 snail promoter                  	chr2L	15474198	15476199	d-v	12	twi twi dl dl dl dl dl dl dl dl dl dl
+ CE1079 	 Dll NRE                         	chr2R	20310381	20311272		3	Ubx abd-A Ubx
+ CE1080 	 vg boundary                     	chr2R	8404780	8405535	disk	5	Su(H) nub nub nub nub
+ CE1081 	 vg quadrant enhancer            	chr2R	8412079	8412883	disk	8	sd sd sd vvl Mad Mad Mad sd
+ CE1082 	 vvl autoreg enhancer            	chr3L	6758911	6759427		2	vvl vvl
+ CE1083 	 hairy stripe 5                  	chr3L	8644025	8644328		2	Kr Kr
+ CE1084 	 ph-p1                           	chrX	1996366	1996806		6	en en en en en en
+ CE1085 	 ph-d1                           	chrX	1981449	1981745		5	en en en en en
+ CE1086 	 ph-d2                           	chrX	1980273	1980606		2	en en
+ CE1088 	 scs fragment C                  	chr3R	7775364	7775488		1	dwg
+ CE1089 	 hairy stripe 3+4                	chr3L	8638309	8639221	a-p	15	hb hb hb kni hb hb kni hb hb kni hb kni hb hb hb
+ CE1090 	 Dpt promoter                    	chr2R	14380304	14380707		4	Unspecified Unspecified Unspecified Unspecified
+ CE1092 	 Kr CD2                          	chr2R	20731858	20733358		1	gt
+ CE1094 	 Deb-A                           	chr2R	7714033	7714826		2	Unspecified Unspecified
+ CE1098 	 Jra promoter                    	chr2R	5608657	5608991		1	Unspecified
+ CE1099 	 Sgs4                            	chrX	3105441	3106264		30	br-Z3 br-Z2 br-Z1 br-Z2 br-Z3 br-Z1 br-Z1 br-Z2 br-Z3 br-Z2 br-Z1 br-Z3 br-Z2 Unspecified br-Z2 br-Z3 br-Z1 br-Z4 br-Z3 br-Z2 br-Z3 br-Z4 br-Z2 br-Z1 br-Z4 br-Z3 br-Z2 br-Z3 br-Z3 br-Z3
+ CE1101 	 Act 5C proximal promoter        	chrX	5746769	5747241		1	Unspecified
+ CE1102 	 sim_2.8_Pe                      	chr3R	8895635	8898460	d-v	9	twi sna twi sna sna sna sna sna sna
+ CE1103 	 Sgs3_promoter                   	chr3L	11486022	11486184		3	Unspecified Unspecified Unspecified
+ CE1104 	 Sgs3_63bp_5'region              	chr3L	11485521	11485585		2	Unspecified Unspecified
+ CE1105 	 E74_KpnI_RcoRI_intron           	chr3L	17552762	17553085		3	Eip74EF Eip74EF Eip74EF
+ CE1106 	 Eip74Eg_promoter                	chr3L	15622619	15623045		9	Eip74EF Eip74EF br-Z1 br-Z1 Eip74EF Eip74EF br-Z1 br-Z1 Eip74EF
+ CE1107 	 sc_L3/TSM_enhancer              	chrX	252440	252693	disk	2	ara ara
+ CE1108 	 sc_SMC_enhancer                 	chrX	249784	250141	disk	1	E(spl)
+ CE1109 	 ko_intronic_enhancer            	chr3L	21021347	21022328		3	Kr Kr Kr
+ CE1110 	 ras_promoter_cBE76              	chrX	10590146	10590467		3	BEAF-32 Dref BEAF-32
+ CE1112 	 hsp23 promoter                  	chr3L	9354182	9354530		9	br-Z1 br-Z3 br-Z2 br-Z2 br-Z1 br-Z2 br-Z1 br-Z2 br-Z3
+ CE1115 	 P1 promoter fragment I          	chr3R	2827205	2827388		4	ftz ftz ftz ftz
+ CE1116 	 P1 promoter fragment II         	chr3R	2825808	2826148		4	ftz ftz ftz ftz
+ CE1118 	 P1 promoter fragment IV         	chr3R	2823441	2823507		3	ftz ftz ftz
+ CE1121 	 ftz zebra element               	chr3R	2689374	2690045	a-p	19	Unspecified cad Unspecified cad Unspecified Unspecified Unspecified ftz-f1 Unspecified Hr39 Unspecified Unspecified ttk Unspecified Unspecified ttk ttk Unspecified Unspecified
+ CE1122 	 ind cis-regulatory              	chr3L	15005653	15005868		3	vnd vnd vnd
+ CE1123 	 Lz_LMEE                         	chrX	9132382	9132664		1	so
+ CE1124 	 I-element UTR                   	chr4	97078	102647		1	Unspecified
+ CE1125 	 gypsy UTR                       	chr2R	556504	564121		6	su(Hw) su(Hw) su(Hw) su(Hw) su(Hw) su(Hw)
+ CE1126 	 copia LTR                       	chrX	4129700	4134947		1	Antp
+ CE1127 	 ftz_USE                         	chr3R	2683637	2686199	a-p	58	Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified ftz Unspecified ftz Unspecified ftz Unspecified Unspecified ftz Unspecified ftz ftz Unspecified Unspecified ftz ttk Unspecified Unspecified ftz ftz Unspecified ftz Unspecified ftz Unspecified ftz ftz Unspecified ftz ftz Unspecified ftz Unspecified Unspecified ftz Unspecified Unspecified slp1 ftz Unspecified Unspecified Unspecified Unspecified Unspecified ftz Unspecified Unspecified Unspecified ftz Unspecified ftz
+ CE1128 	 Cp15 promoter                   	chr3L	8702292	8702428		3	Cf2-II usp Cf2-II
+ CE1129 	 Cf2 promoter                    	chr2L	4883103	4883234		1	Cf2-II
+ CE1131 	 sal 1.1 enhancer                	chr2L	11454343	11455436	disk	8	Ubx sd Ubx sd sd Ubx Ubx Ubx
+ CE1132 	 kni L2 enhancer                 	chr3L	20640520	20641212	disk	5	sd sd sd sd sd
+ CE1133 	 ct enhancer                     	chrX	7375460	7376129	disk	7	sd sd sd sd sd sd sd
+ CE1134 	 PCNA promoter                   	chr2R	15777560	15778107		6	zen eve eve zen zen eve
+ CE1135 	 bab1_intron1                    	chr3L	1069238	1069830		4	bab1 bab1 bab1 bab1
+ CE1136 	 bab2_intron1                    	chr3L	1158927	1159145		2	bab1 bab1
+ CE1138 	 Adh_promoter                    	chr2L	14614893	14616302		26	Unspecified Aef1 Unspecified Unspecified Unspecified Trl Unspecified Unspecified Unspecified Unspecified Adf1 Unspecified Trl Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Adf1 srp Aef1
+ CE1140 	 scs'                            	chr3R	7788458	7789554		5	Unspecified BEAF-32B Unspecified BEAF-32B BEAF-32A
+ CE1141 	 otu_promoter                    	chrX	8334617	8335161		3	ovo ovo ovo
+ CE1144 	 Sxl_intron                      	chrX	6936861	6938073		2	ovo ovo
+ CE1145 	 Orb_promoter                    	chr3R	19105085	19106451		1	ovo
+ CE1146 	 ovo_promter                     	chrX	4908617	4909698		6	ovo ovo ovo ovo ovo ovo
+ CE1147 	 glass_promoter                  	chr3R	14200149	14200999		2	gl gl
+ CE1148 	 ninaE_promoter                  	chr3R	15713875	15714387		5	Unspecified Unspecified gl gl gl
+ CE1149 	 en_promoter                     	chr2R	7044399	7044957	a-p	14	en eve zen ftz en zen eve Kr hb en eve zen ftz hb
+ CE1150 	 en_intron                       	chr2R	7041147	7042908	a-p	15	en ftz en ftz en ftz ftz ftz ftz ftz ftz-f1 ftz ftz ftz-f1 ftz
+ CE1151 	 U1_promoter                     	chr3R	19685239	19685733		1	Unspecified
+ CE1152 	 ftz_3'_region                   	chr3R	2691949	2692335		1	en
+ CE1154 	 His3_promoter                   	chr2L	21412481	21413028		4	Trl Trl Unspecified Unspecified
+ CE1155 	 Actin5C_promoter                	chrX	5745884	5746315		4	Unspecified Unspecified Unspecified Unspecified
+ CE1156 	 Hsp27 promoter                  	chr3L	9357355	9357576		1	Unspecified
+ CE1157 	 ACE                             	chr3L	8700106	8700428		8	p120 Unspecified p120 Unspecified Myb Unspecified p120 Unspecified
+ CE1159 	 tll_promoter                    	chr3R	26677662	26678030	a-p	8	Unspecified Unspecified Unspecified grh Trl Unspecified ttk Unspecified
+ CE1160 	 dpp_disk_BS1.1                  	chr2L	2469788	2471532	disk	5	en en en en en
+ CE1161 	 dpp_VRR_intron                  	chr2L	2455937	2457661	d-v	23	dl dl dl Unspecified Unspecified dl dl Unspecified dl Unspecified dl Unspecified grh Unspecified Unspecified dl dl Unspecified dl dl dl dl dl
+ CE1162 	 hb_promoter                     	chr3R	4520300	4524677	a-p	20	bcd bcd bcd hb bcd bcd bcd bcd bcd Kr hb Kr bcd bcd hb hb hb hb hb hb
+ CE1164 	 Ddc_intron_promoter             	chr2L	19115389	19118952		32	br-Z4 br-Z1 br-Z4 br-Z2 br-Z2 br-Z3 br-Z1 br-Z4 br-Z4 br-Z1 br-Z2 br-Z4 br-Z1 br-Z2 br-Z3 br-Z2 br-Z3 Unspecified grh Adf1 br-Z2 br-Z2 br-Z2 Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified Unspecified
+ CE1169 	117	chr3R	7799721	7799941		2	en en
+ CE1170 	410	chr3L	11533251	11533361		1	en
+ CE1172 	 11B11                           	chrX	2033396	2033534		2	en en
+ CE1173 	 11G4                            	chr3R	13210846	13211094		2	en en
+ CE1174 	 11G5                            	chr2R	16705698	16705822		2	en en
+ CE1175 	 11F6                            	chrX	12464291	12464442		1	en
+ CE1176 	116	chr3R	13520975	13521188		2	en en
+ CE1177 	417	chr3R	21067232	21067420		3	en en en
+ CE1178 	110	chr3L	5552729	5552949		2	en en
+ CE1179 	407	chr2R	5827222	5827336		3	en en en
+ CE1181 	 pbx_extended                    	chr3R	12598627	12600114	a-p	25	kni kni Kr hb hb twi hb tll twi ftz en hb ftz en tll hb ftz en ftz kni hb ftz ftz kni kni
+ CE1182 	 DNA pol alpha 73                	chr3R	23064563	23065162		3	Dref Dref Dref
+ CE1183 	 tsh enhancer                    	chr2L	21840556	21841185	a-p	16	Ubx abd-A Antp Antp Ubx abd-A Ubx Antp abd-A Antp Ubx abd-A ftz ftz ftz ftz
+ CE1184 	 lab550 enhancer                 	chr3R	2507112	2507664		3	brk brk brk
+ CE1185 	 Antp_P1_promoter                	chr3R	2824411	2825376		9	Ubx ftz ftz Ubx ftz ftz Adf1 Adf1 Adf1
+ CE1186 	 twi promoter                    	chr2R	18552705	18553147	d-v	3	dl dl dl
+ CE1187 	 white promoter                  	chrX	2652700	2654032		9	z z z z z z z z z
+ CE1188 	 white intron                    	chrX	2651290	2651409		2	z z
+ CE1189 	 Ubx promoter                    	chr3R	12562550	12563348		4	shn shn Unspecified Unspecified
+ CE1190 	 Ubx 3'                          	chr3R	12481453	12481572		3	z z z
+ CE1191 	 dpp promoter                    	chr2L	2450830	2450949		3	z z z
+ CE1192 	 zeste promoter                  	chrX	2304109	2304228		2	z z
+ CE1193 	 Hsp70 promoter                  	chr3R	7783054	7784301		13	Top2 Top2 Top2 Top2 Hsf Hsf Trl Trl Hsf Trl Hsf Trl Unspecified
+ CE1194 	 hsp26 promoter                  	chr3L	9351120	9351835		5	Unspecified Trl Trl Trl Trl
+ CE1195 	 hsp83 promoter                  	chr3L	3176580	3176788		1	Hsf
+ CE1196 	 E(spl) promoter                 	chr3R	21865315	21866073		2	HLHm5 E(spl)
+ CE1197 	 ac promoter                     	chrX	225956	226803		2	HLHm5 E(spl)
+ CE1198 	 l(1)sc promoter                 	chrX	265572	266544		2	E(spl) HLHm5
+ CE1199 	 yp1 promoter                    	chrX	9898752	9899079		11	Aef1 dsx-F dsx-M slbo dsx-F dsx-M slbo dsx-F dsx-M slbo srp
+ CE1200 	 Ser wing enhancer               	chr3R	22997005	22997817	disk	25	ap ap ap ap pan ap ap ap pan pan pan pan ap Su(H) Su(H) pan ap pan pan pan ap ap ap ap ap
+ CE1201 	 ems enhancer                    	chr3R	9723513	9724763	a-p	10	Abd-B Abd-B ems Abd-B Abd-B ems Abd-B ems Abd-B Abd-B
+ CE1202 	 cBE51                           					1	BEAF-32A
+ CE1203 	 cBE28                           	chr2h	11005	12019		3	BEAF-32A BEAF-32A Unspecified
+ CE1204 	 ftz_neurogenic_enhancer         	chr3R	2687125	2689005		4	grh grh grh grh
+CE1205	 Sxl_promoter                    	chrX	6938110	6939513		1	dpn

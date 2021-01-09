@@ -1,0 +1,10 @@
+hb: 
+ ======= Synonymous/Replacement Changes =======
+ Segregating sites: 52   Total number of mutations: 52
+   Total number of Synonymous changes: 50
+           207 237 258 273 282 309 378 399 453 471 558 579 681
+           720 732 771 777 795 936 963 987 1044 1093 1215 1224 1362 1411
+           1419 1422 1488 1491 1575 1590 1605 1611 1620 1647 1725 1752 1786 1812
+           1851 1890 1920 1929 1992 2016 2055 2166 2250
+   Total number of Replacement changes: 2
+           33 1235

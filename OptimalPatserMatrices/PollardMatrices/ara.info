@@ -1,0 +1,13 @@
+# Name
+ara
+
+# Construction Info
+Meme was run on the footprints with fixed width 6 and flanking sequence was added for footprints less than 9bp or the fixed width.
+
+# Pubmed Ids for Footprinted Sites
+"8620542"
+
+# Footprints
+TTAATTAAC
+ACAGAAATCAAA
+
